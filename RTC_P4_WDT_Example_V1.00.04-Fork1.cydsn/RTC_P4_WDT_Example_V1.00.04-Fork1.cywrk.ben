@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Source Files">
+<ExpandedNodeIds>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\Pins</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\Analog</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\DMA</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\Clocks</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\Interrupts</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\System</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\Directives</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\Flash Security</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Header Files</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Header Files\cyapicallbacks.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Header Files\MyBuild.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Header Files\MyTime.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Header Files\MyWDT.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Source Files</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Source Files\main.c</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Source Files\MyBuild.c</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Source Files\MyTime.c</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Source Files\MyWDT.c</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\RTC</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\Pins</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\Analog</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\DMA</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\Clocks</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\Interrupts</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\System</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\Directives</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr\Flash Security</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Header Files</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Header Files\cyapicallbacks.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Header Files\MyBuild.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Header Files\MyTime.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Header Files\MyWDT.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Source Files</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Source Files\main.c</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Source Files\MyBuild.c</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Source Files\MyTime.c</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Source Files\MyWDT.c</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cy_boot</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cy_dmac</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cy_lfclk</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\DIO_0_0</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\DIO_0_3</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\Em_EEPROM_Dynamic</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\LED_Alarm</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\LED_WdtIsr</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\RTC</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\RTC\RTC.c</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\RTC\RTC.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\UART</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cydisabledsheets.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cyfitter.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cyfitter_cfg.c</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cyfitter_cfg.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cyfittergnu.inc</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cyfitteriar.inc</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cyfitterrv.inc</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\cymetadata.c</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Generated_Source\PSoC4\project.h</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4100 BLE</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4100 BLE\TopDesign.ctl</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4100M</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4100M\TopDesign.ctl</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4200 BLE</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4200 BLE\TopDesign.ctl</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4200L</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4200L\TopDesign.ctl</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4200M</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4200M\TopDesign.ctl</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4100 BLE</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4100 BLE\TopDesign.ctl</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4100M</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4100M\TopDesign.ctl</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4200 BLE</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4200 BLE\TopDesign.ctl</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4200L</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4200L\TopDesign.ctl</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4200M</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\PSoC4\PSoC 4200M\TopDesign.ctl</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\CyDMA.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\DIO_0_0.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\DIO_0_0_PM.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\DIO_0_3.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\DIO_0_3_PM.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_Alarm.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_Alarm_PM.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_WdtIsr.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_WdtIsr_PM.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\MyBuild.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\MyTime.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\MyWDT.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\RTC.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_AsmGnu.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.elf</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.hex</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.map</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.gpdsc</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.rpt</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\CyDMA.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\DIO_0_0.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\DIO_0_0_PM.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\DIO_0_3.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\DIO_0_3_PM.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_Alarm.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_Alarm_PM.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_WdtIsr.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_WdtIsr_PM.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\MyBuild.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\MyTime.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\MyWDT.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\RTC.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_AsmGnu.lst</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.elf</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.hex</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.map</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.gpdsc</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.rpt</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\PSoC 4 Architecture TRM</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\PSoC 4200M Family Datasheet</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\System Reference Guides</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\System Reference Guides\cy_boot_v6_0</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\System Reference Guides\cy_dmac_v1_10</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\System Reference Guides\cy_lfclk_v1_20</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\cy_pins_v2_20</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\LED_v1_0</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\LED_v1_0\LED_v1_0.pdf</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Power_v1_0</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Power_v1_0\Power_v1_0.pdf</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_v1_30.pdf</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\SW_Tx_UART_v1_50.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\PSoC 4 Architecture TRM</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\PSoC 4200M Family Datasheet</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\System Reference Guides</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\System Reference Guides\cy_boot_v6_0</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\System Reference Guides\cy_dmac_v1_10</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\System Reference Guides\cy_lfclk_v1_20</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\cy_pins_v2_20</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\LED_v1_0</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\LED_v1_0\LED_v1_0.pdf</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Power_v1_0</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\Power_v1_0\Power_v1_0.pdf</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_v1_30.pdf</v>
+<v>RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1\SW_Tx_UART_v1_50.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="6c335137-fa19-46ce-bc2d-2fbeb6d5f2a2">
+<CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2 type_name="CyDesigner.Common.ProjMgmt.GUI.CyDependenciesCustomData" version="1">
+<dictName v="..\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\RTC_P4_WDT_Example_V1.00.03-Fork1.cyprj">
+<listName />
+</dictName>
+</CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\main.c" />
+<name v=".\MyWDT.c" />
+<name v=".\MyTime.h" />
+<name v=".\Generated_Source\PSoC4\project.h" />
+<name v=".\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr" />
+<name v=".\MyBuild.h" />
+<name v=".\MyBuild.c" />
+<name v=".\MyTime.c" />
+<name v=".\MyWDT.h" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1266, 1216" SelectedTabbedMdiWindow="34181433-6b86-4a41-9b52-bc09ffd6edb2"><DocumentWindow Key="V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\main.c" Guid="34181433-6b86-4a41-9b52-bc09ffd6edb2" /><DocumentWindow Key="V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\MyWDT.c" Guid="d62292b3-d8c5-4ecb-af8e-e9a6a28c0510" /><DocumentWindow Key="V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\MyTime.h" Guid="10ec1b24-b315-4b23-b4ab-36baeee4eebb" /><DocumentWindow Key="V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\Generated_Source\PSoC4\project.h" Guid="a831544c-d97d-49c9-9f8c-41bd07639620" /><DocumentWindow Key="V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\RTC_P4_WDT_Example_V1.00.04-Fork1.cydwr" Guid="72ed2ab2-a009-43f4-8a82-6f7a1219eb92" /><DocumentWindow Key="V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\MyBuild.h" Guid="ac6d0db2-8ca7-4fb3-881b-97753eea1e8a" /><DocumentWindow Key="V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\MyBuild.c" Guid="f15ee050-0637-4730-a97f-8b5f0a78670f" /><DocumentWindow Key="V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\MyTime.c" Guid="f628bf15-f883-4899-93d2-5a0f068d7bcb" /></TabbedMdiContainer><TabbedMdiContainer Size="1266, 1216" SelectedTabbedMdiWindow="409443e9-785a-4840-adb5-dc19fc763296"><DocumentWindow Key="V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\MyWDT.h" Guid="409443e9-785a-4840-adb5-dc19fc763296" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

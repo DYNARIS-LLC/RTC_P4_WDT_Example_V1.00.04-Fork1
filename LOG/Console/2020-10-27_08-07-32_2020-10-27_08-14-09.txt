@@ -1,0 +1,90 @@
+
+
+
+
+
+
+ RTC_P4_WDT_Example_V1.00.04-Fork1
+Compile Time: 1970-01-01_00-00-00
+Initialization
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  0 .
+WdtGetEnabledStatusValue0:  0 .
+WdtGetClearOnMatchValue0:  0 .
+WdtGetMatchValue0:  0 .
+WdtGetCountValue0:  0 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18485 .
+WdtGetInterruptCallbackValue2:  0 .
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  1 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  0 .
+WdtGetMatchValue0:  65534 .
+WdtGetCountValue0:  12172 .
+WdtGetInterruptCallbackValue0:  985 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  38516 .
+WdtGetInterruptCallbackValue2:  0 .
+
+Entering Main Loop
+
+
+2020-10-27_08-07-32
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  1 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  65534 .
+WdtGetCountValue0:  57336 .
+WdtGetInterruptCallbackValue0:  1049 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  149226 .
+WdtGetInterruptCallbackValue2:  4037 .
+2020-10-27_08-14-09
+
+2020-10-27_08-07-32_2020-10-27_08-14-09

@@ -1,0 +1,17 @@
+# RTC_P4_WDT_Example_V1.00.04-Fork1
+# 2020-10-27 14:14:54Z
+
+# IO_4@[IOP=(0)][IoId=(4)] is reserved: KhzXtalEnabled
+dont_use_io iocell 0 4
+# IO_5@[IOP=(0)][IoId=(5)] is reserved: KhzXtalEnabled
+dont_use_io iocell 0 5
+# IO_2@[IOP=(3)][IoId=(2)] is reserved: SWDDebugEnabled
+dont_use_io iocell 3 2
+# IO_3@[IOP=(3)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 3 3
+set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
+set_io "LED_Alarm(0)" iocell 6 5
+set_io "LED_WdtIsr(0)" iocell 0 6
+set_io "\UART:tx(0)\" iocell 7 1
+set_io "DIO_0_0(0)" iocell 0 0
+set_io "DIO_0_3(0)" iocell 0 3

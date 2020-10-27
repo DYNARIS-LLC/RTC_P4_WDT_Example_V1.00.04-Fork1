@@ -1,0 +1,15 @@
+//UserName: ben
+//UserDomain: DP7510590YYF2
+//ComputerName: DP7510590YYF2
+//logFile: V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\SCRIPT\2020-10-27_01-26-22-97_ben-build.txt
+//logTime: 2020-10-27_01-26-22-97
+#defineTIME_HOUR_BUILD           (0x02u)
+#defineTIME_MIN_BUILD            (0x59u)
+#defineTIME_SEC_BUILD            (0x50u)
+#defineHOUR_OFFSET_BUILD         (16u)
+#defineMIN_OFFSET_BUILD          (8u)
+#defineDATE_MONTH_BUILD          (RTC_OCTOBER)
+#defineDATE_DAY_BUILD            (0x03u)
+#defineDATE_YEAR_BUILD           (0x2020u)
+#defineMONTH_OFFSET_BUILD        (0u)
+#defineDAY_OFFSET_BUILD          (0u)

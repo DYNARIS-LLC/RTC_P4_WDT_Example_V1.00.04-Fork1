@@ -1,0 +1,62 @@
+
+
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1
+
+RTC_P4_WDT_Example_V1.00.03-Fork1
+
+
+Processor-ID
+
+
+
+
+FirmwareBuildTime.h
+
+MyTime.h
+
+
+RTC_P4_WDT_Example
+
+
+CY8C4247AZI-M485 64-TQFP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Time: 02:59:50 */
+/**/
+
+#define TIME_HOUR_BUILD           (0x02u)
+#define TIME_MIN_BUILD            (0x59u)
+#define TIME_SEC_BUILD            (0x50u)
+#define HOUR_OFFSET_BUILD         (16u)
+#define MIN_OFFSET_BUILD          (8u)
+
+
+
+                            
+
+
+/* Date: 2020-10-03 */
+
+#define DATE_MONTH_BUILD          (RTC_OCTOBER)
+#define DATE_DAY_BUILD            (0x03u)
+#define DATE_YEAR_BUILD           (0x2020u)
+#define MONTH_OFFSET_BUILD        (0u)
+#define DAY_OFFSET_BUILD          (0u)
+
+
+
+/* [] END OF FILE */

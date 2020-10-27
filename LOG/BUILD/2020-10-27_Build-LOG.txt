@@ -1,0 +1,526 @@
+
+
+
+Log file for this session is located at: C:\Users\ben\AppData\Local\Temp\PSoC Creator-000.log
+KitProg version Expecting 2.21, but found 2.12. Please use PSoC Programmer GUI to upgrade firmware.
+The following projects have new component updates available: RTC_P4_WDT_Example-Simple. To update the components in a project right-click on the project in the Workspace Explorer and select 'Update Components' or click on the notification icon in the status bar.
+Info: prj.M0282: A project is being renamed. Would you like to rename these related files as well?
+ YES
+--------------- Rebuild Started: 10/27/2020 00:35:21 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\main.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cymetadata.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\RTC.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\UART.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\Cm0Start.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyFlash.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyLib.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyPm.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyutils.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyDMA.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyLFClk.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.hex"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.map"
+Deleting file ".\RTC_P4_WDT_Example_V1.00.03-Fork1.cycdx"
+Deleting file ".\RTC_P4_WDT_Example_V1.00.03-Fork1.rpt"
+Deleting file ".\RTC_P4_WDT_Example_V1.00.03-Fork1_timing.html"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\.deps\SOURCE_C__ARM_GCC_GENERIC.P"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\.deps\SOURCE_ASM__ARM_GCC_GENERIC.P"
+cydsfit.exe -.appdatapath "C:\Users\ben\AppData\Local\Cypress Semiconductor\PSoC Creator\4.3" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\RTC_P4_WDT_Example_V1.00.03-Fork1.cyprj -d CY8C4247AZI-M485 -s V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+HDL Generation...
+Synthesis...
+Tech Mapping...
+Analog Placement...
+Analog Routing...
+Analog Code Generation...
+Digital Placement...
+Digital Routing...
+Bitstream Generation...
+Bitstream Verification...
+Static timing analysis...
+API Generation...
+Dependency Generation...
+Cleanup...
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM0\ARM_GCC_541\Debug\main.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MyTime.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c MyTime.c -o .\CortexM0\ARM_GCC_541\Debug\MyTime.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyfitter_cfg.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cyfitter_cfg.c -o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cymetadata.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cymetadata.c -o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/LED_Alarm.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\LED_Alarm.c -o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/LED_Alarm_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\LED_Alarm_PM.c -o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/LED_WdtIsr.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\LED_WdtIsr.c -o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/LED_WdtIsr_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\LED_WdtIsr_PM.c -o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/RTC.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\RTC.c -o .\CortexM0\ARM_GCC_541\Debug\RTC.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/UART.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\UART.c -o .\CortexM0\ARM_GCC_541\Debug\UART.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/Cm0Start.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\Cm0Start.c -o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyFlash.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyFlash.c -o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyLib.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyLib.c -o .\CortexM0\ARM_GCC_541\Debug\CyLib.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyPm.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cyPm.c -o .\CortexM0\ARM_GCC_541\Debug\cyPm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyutils.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cyutils.c -o .\CortexM0\ARM_GCC_541\Debug\cyutils.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyDMA.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyDMA.c -o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyLFClk.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyLFClk.c -o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cy_em_eeprom.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cy_em_eeprom.c -o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/DIO_0_0.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\DIO_0_0.c -o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/DIO_0_0_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\DIO_0_0_PM.c -o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o
+arm-none-eabi-as.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -alh=.\CortexM0\ARM_GCC_541\Debug/UART_AsmGnu.lst -g -W -o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o Generated_Source\PSoC4\UART_AsmGnu.s
+arm-none-eabi-as.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -alh=.\CortexM0\ARM_GCC_541\Debug/CyBootAsmGnu.lst -g -W -o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o Generated_Source\PSoC4\CyBootAsmGnu.s
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.03-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\MyTime.o:(.bss+0x0): multiple definition of `alarmFlag'
+.\CortexM0\ARM_GCC_541\Debug\main.o:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Rebuild Failed: 10/27/2020 00:35:36 ---------------
+--------------- Rebuild Started: 10/27/2020 00:53:24 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\main.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MyTime.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cymetadata.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\RTC.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\UART.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\Cm0Start.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyFlash.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyLib.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyPm.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyutils.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyDMA.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyLFClk.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.map"
+Deleting file ".\RTC_P4_WDT_Example_V1.00.03-Fork1.cycdx"
+Deleting file ".\RTC_P4_WDT_Example_V1.00.03-Fork1.rpt"
+Deleting file ".\RTC_P4_WDT_Example_V1.00.03-Fork1_timing.html"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\.deps\SOURCE_C__ARM_GCC_GENERIC.P"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\.deps\SOURCE_ASM__ARM_GCC_GENERIC.P"
+cydsfit.exe -.appdatapath "C:\Users\ben\AppData\Local\Cypress Semiconductor\PSoC Creator\4.3" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\RTC_P4_WDT_Example_V1.00.03-Fork1.cyprj -d CY8C4247AZI-M485 -s V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+HDL Generation...
+Synthesis...
+Tech Mapping...
+Analog Placement...
+Analog Routing...
+Analog Code Generation...
+Digital Placement...
+Digital Routing...
+Bitstream Generation...
+Bitstream Verification...
+Static timing analysis...
+API Generation...
+Dependency Generation...
+Cleanup...
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM0\ARM_GCC_541\Debug\main.o
+main.c: In function 'main':
+main.c:64:12: warning: unused variable 'date' [-Wunused-variable]
+     uint32 date;
+            ^
+main.c:63:12: warning: unused variable 'time' [-Wunused-variable]
+     uint32 time;
+            ^
+main.c:61:10: warning: unused variable 'dateBuffer' [-Wunused-variable]
+     char dateBuffer[16u];
+          ^
+main.c:60:10: warning: unused variable 'timeBuffer' [-Wunused-variable]
+     char timeBuffer[16u];
+          ^
+In file included from main.c:23:0:
+main.c: At top level:
+MyTime.h:80:17: warning: 'timeBuffer' defined but not used [-Wunused-variable]
+     static char timeBuffer[16u];
+                 ^
+MyTime.h:81:17: warning: 'dateBuffer' defined but not used [-Wunused-variable]
+     static char dateBuffer[16u];
+                 ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MyTime.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c MyTime.c -o .\CortexM0\ARM_GCC_541\Debug\MyTime.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyfitter_cfg.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cyfitter_cfg.c -o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cymetadata.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cymetadata.c -o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/LED_Alarm.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\LED_Alarm.c -o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/LED_Alarm_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\LED_Alarm_PM.c -o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/LED_WdtIsr.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\LED_WdtIsr.c -o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/LED_WdtIsr_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\LED_WdtIsr_PM.c -o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/RTC.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\RTC.c -o .\CortexM0\ARM_GCC_541\Debug\RTC.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/UART.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\UART.c -o .\CortexM0\ARM_GCC_541\Debug\UART.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/Cm0Start.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\Cm0Start.c -o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyFlash.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyFlash.c -o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyLib.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyLib.c -o .\CortexM0\ARM_GCC_541\Debug\CyLib.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyPm.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cyPm.c -o .\CortexM0\ARM_GCC_541\Debug\cyPm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyutils.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cyutils.c -o .\CortexM0\ARM_GCC_541\Debug\cyutils.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyDMA.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyDMA.c -o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyLFClk.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyLFClk.c -o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cy_em_eeprom.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cy_em_eeprom.c -o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/DIO_0_0.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\DIO_0_0.c -o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/DIO_0_0_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\DIO_0_0_PM.c -o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o
+arm-none-eabi-as.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -alh=.\CortexM0\ARM_GCC_541\Debug/UART_AsmGnu.lst -g -W -o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o Generated_Source\PSoC4\UART_AsmGnu.s
+arm-none-eabi-as.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -alh=.\CortexM0\ARM_GCC_541\Debug/CyBootAsmGnu.lst -g -W -o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o Generated_Source\PSoC4\CyBootAsmGnu.s
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.03-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\MyTime.o:(.bss+0x0): multiple definition of `alarmFlag'
+.\CortexM0\ARM_GCC_541\Debug\main.o:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Rebuild Failed: 10/27/2020 00:53:39 ---------------
+--------------- Rebuild Started: 10/27/2020 00:54:37 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\main.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\MyTime.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cymetadata.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\RTC.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\UART.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\Cm0Start.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyFlash.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyLib.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyPm.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyutils.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyDMA.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\CyLFClk.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.map"
+Deleting file ".\RTC_P4_WDT_Example_V1.00.03-Fork1.cycdx"
+Deleting file ".\RTC_P4_WDT_Example_V1.00.03-Fork1.rpt"
+Deleting file ".\RTC_P4_WDT_Example_V1.00.03-Fork1_timing.html"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\.deps\SOURCE_C__ARM_GCC_GENERIC.P"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\.deps\SOURCE_ASM__ARM_GCC_GENERIC.P"
+cydsfit.exe -.appdatapath "C:\Users\ben\AppData\Local\Cypress Semiconductor\PSoC Creator\4.3" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\RTC_P4_WDT_Example_V1.00.03-Fork1.cyprj -d CY8C4247AZI-M485 -s V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+HDL Generation...
+Synthesis...
+Tech Mapping...
+Analog Placement...
+Analog Routing...
+Analog Code Generation...
+Digital Placement...
+Digital Routing...
+Bitstream Generation...
+Bitstream Verification...
+Static timing analysis...
+API Generation...
+Dependency Generation...
+Cleanup...
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM0\ARM_GCC_541\Debug\main.o
+In file included from main.c:23:0:
+MyTime.h:80:17: warning: 'timeBuffer' defined but not used [-Wunused-variable]
+     static char timeBuffer[16u];
+                 ^
+MyTime.h:81:17: warning: 'dateBuffer' defined but not used [-Wunused-variable]
+     static char dateBuffer[16u];
+                 ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MyTime.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c MyTime.c -o .\CortexM0\ARM_GCC_541\Debug\MyTime.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyfitter_cfg.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cyfitter_cfg.c -o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cymetadata.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cymetadata.c -o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/LED_Alarm.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\LED_Alarm.c -o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/LED_Alarm_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\LED_Alarm_PM.c -o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/LED_WdtIsr.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\LED_WdtIsr.c -o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/LED_WdtIsr_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\LED_WdtIsr_PM.c -o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/RTC.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\RTC.c -o .\CortexM0\ARM_GCC_541\Debug\RTC.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/UART.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\UART.c -o .\CortexM0\ARM_GCC_541\Debug\UART.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/Cm0Start.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\Cm0Start.c -o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyFlash.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyFlash.c -o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyLib.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyLib.c -o .\CortexM0\ARM_GCC_541\Debug\CyLib.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyPm.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cyPm.c -o .\CortexM0\ARM_GCC_541\Debug\cyPm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cyutils.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cyutils.c -o .\CortexM0\ARM_GCC_541\Debug\cyutils.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyDMA.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyDMA.c -o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/CyLFClk.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\CyLFClk.c -o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/cy_em_eeprom.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\cy_em_eeprom.c -o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/DIO_0_0.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\DIO_0_0.c -o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/DIO_0_0_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\DIO_0_0_PM.c -o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o
+arm-none-eabi-as.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -alh=.\CortexM0\ARM_GCC_541\Debug/UART_AsmGnu.lst -g -W -o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o Generated_Source\PSoC4\UART_AsmGnu.s
+arm-none-eabi-as.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -alh=.\CortexM0\ARM_GCC_541\Debug/CyBootAsmGnu.lst -g -W -o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o Generated_Source\PSoC4\CyBootAsmGnu.s
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.03-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\MyTime.o:(.bss+0x0): multiple definition of `alarmFlag'
+.\CortexM0\ARM_GCC_541\Debug\main.o:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Rebuild Failed: 10/27/2020 00:54:51 ---------------
+Error: dbg.M0006: The start request failed.  Encountered error (V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf not found)
+
+
+
+
+
+
+
+
+
+
+
+--------------- Build Failed: 10/27/2020 02:13:42 ---------------
+--------------- Build Started: 10/27/2020 02:25:42 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+cmd.exe /c V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\SCRIPT\PreBuildScript.bat
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET var=V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>ECHO V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>PowerShell.exe -ExecutionPolicy Bypass -Command "& ""V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\SCRIPT\PreBuildScript.ps1"""
+The compile step is up to date, no work needs to be done.
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.03-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\MyTime.o:(.bss+0x0): multiple definition of `alarmFlag'
+.\CortexM0\ARM_GCC_541\Debug\main.o:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+
+
+
+
+--------------- Build Failed: 10/27/2020 02:25:44 ---------------
+--------------- Build Started: 10/27/2020 02:41:26 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+cmd.exe /c V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\SCRIPT\PreBuildScript.bat
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET var=V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>ECHO V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>PowerShell.exe -ExecutionPolicy Bypass -Command "& ""V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\SCRIPT\PreBuildScript.ps1"""
+The compile step is up to date, no work needs to be done.
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.03-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\MyTime.o:(.bss+0x0): multiple definition of `alarmFlag'
+.\CortexM0\ARM_GCC_541\Debug\main.o:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Build Failed: 10/27/2020 02:41:27 ---------------
+
+
+
+--------------- Build Failed: 10/27/2020 02:41:27 ---------------
+--------------- Build Started: 10/27/2020 02:43:35 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+cmd.exe /c V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.bat
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET rootDir=V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET folder= \SCRIPT
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET fileScript= \PreBuildScript.ps1
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET cmdPath = V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn  \SCRIPT  \PreBuildScript.ps1
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>ECHO
+ECHO is on.
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>PowerShell.exe -ExecutionPolicy Bypass -Command "& ""V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.ps1"""
+Method invocation failed because [System.Management.Automation.PathInfo] does not contain a method named 'op_Addition'.
+At V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1
+.cydsn\SCRIPT\PreBuildScript.ps1:10 char:14
++ $logFile = $(Get-Location) + "\SCRIPT\$logURL-build.h"
++              ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (op_Addition:String) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+The compile step is up to date, no work needs to be done.
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.03-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\MyTime.o:(.bss+0x0): multiple definition of `alarmFlag'
+.\CortexM0\ARM_GCC_541\Debug\main.o:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Build Failed: 10/27/2020 02:43:36 ---------------
+
+
+
+
+
+
+
+
+
+--------------- Build Failed: 10/27/2020 02:43:36 ---------------
+--------------- Build Started: 10/27/2020 02:45:34 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+cmd.exe /c V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.bat
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>ECHO OFF
+ECHO is off.
+Method invocation failed because [System.Management.Automation.PathInfo] does not contain a method named 'op_Addition'.
+At V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1
+.cydsn\SCRIPT\PreBuildScript.ps1:10 char:14
++ $logFile = $(Get-Location) + "\SCRIPT\$logURL-build.h"
++              ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (op_Addition:String) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+The compile step is up to date, no work needs to be done.
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.03-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\MyTime.o:(.bss+0x0): multiple definition of `alarmFlag'
+.\CortexM0\ARM_GCC_541\Debug\main.o:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Build Failed: 10/27/2020 02:45:35 ---------------
+
+
+
+
+
+
+
+
+
+
+
+
+--------------- Build Started: 10/27/2020 02:48:10 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+cmd.exe /c V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.bat
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET rootDir=V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET folder= \SCRIPT
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET fileScript= \PreBuildScript.ps1
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET cmdPath = V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn \SCRIPT \PreBuildScript.ps1
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>ECHO
+ECHO is on.
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>PowerShell.exe -ExecutionPolicy Bypass -Command "& ""V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.ps1"""
+Method invocation failed because [System.Management.Automation.PathInfo] does not contain a method named 'op_Addition'.
+At V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1
+.cydsn\SCRIPT\PreBuildScript.ps1:10 char:14
++ $logFile = $(Get-Location) + "\SCRIPT\$logURL-build.h"
++              ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (op_Addition:String) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+The compile step is up to date, no work needs to be done.
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.03-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\MyTime.o:(.bss+0x0): multiple definition of `alarmFlag'
+.\CortexM0\ARM_GCC_541\Debug\main.o:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Build Failed: 10/27/2020 02:48:12 ---------------
+
+
+
+
+
+
+
+
+
+--------------- Build Started: 10/27/2020 02:48:57 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+cmd.exe /c V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.bat
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET rootDir=V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET folder=\SCRIPT
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET fileScript=\PreBuildScript.ps1
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET cmdPath = V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.ps1
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>ECHO
+ECHO is on.
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>PowerShell.exe -ExecutionPolicy Bypass -Command "& ""V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.ps1"""
+Method invocation failed because [System.Management.Automation.PathInfo] does not contain a method named 'op_Addition'.
+At V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1
+.cydsn\SCRIPT\PreBuildScript.ps1:10 char:14
++ $logFile = $(Get-Location) + "\SCRIPT\$logURL-build.h"
++              ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (op_Addition:String) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+The compile step is up to date, no work needs to be done.
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.03-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\MyTime.o:(.bss+0x0): multiple definition of `alarmFlag'
+.\CortexM0\ARM_GCC_541\Debug\main.o:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Build Failed: 10/27/2020 02:48:59 ---------------
+
+
+
+
+--------------- Build Started: 10/27/2020 02:53:47 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+cmd.exe /c V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.bat
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET rootDir=V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET folder=\SCRIPT
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET fileScript=\PreBuildScript.ps1
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET cmdPath = V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.ps1
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>ECHO
+ECHO is on.
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>PowerShell.exe -ExecutionPolicy Bypass -Command "& ""V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.ps1"""
+Method invocation failed because [System.Management.Automation.PathInfo] does not contain a method named 'op_Addition'.
+At V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1
+.cydsn\SCRIPT\PreBuildScript.ps1:10 char:14
++ $logFile = $(Get-Location) + "\SCRIPT\$logURL-build.h"
++              ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (op_Addition:String) [], RuntimeException
+    + FullyQualifiedErrorId : MethodNotFound
+The compile step is up to date, no work needs to be done.
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.03-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\MyTime.o:(.bss+0x0): multiple definition of `alarmFlag'
+.\CortexM0\ARM_GCC_541\Debug\main.o:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Build Failed: 10/27/2020 02:53:48 ---------------
+
+
+
+
+
+
+
+
+--------------- Build Started: 10/27/2020 04:42:08 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+PowerShell.exe -ExecutionPolicy Bypass -Command "& \".\SCRIPT\PreBuildScript.ps1"
+The string is missing the terminator: ".
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+The command 'PowerShell.exe' failed with exit code '1'.
+--------------- Build Failed: 10/27/2020 04:42:09 ---------------
+
+
+
+
+
+
+
+
+--------------- Build Started: 10/27/2020 04:42:08 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+PowerShell.exe -ExecutionPolicy Bypass -Command "& \".\SCRIPT\PreBuildScript.ps1"
+The string is missing the terminator: ".
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+The command 'PowerShell.exe' failed with exit code '1'.
+--------------- Build Failed: 10/27/2020 04:42:09 ---------------
+--------------- Build Started: 10/27/2020 04:43:22 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+PowerShell.exe -ExecutionPolicy Bypass -Command "& \".\SCRIPT\PreBuildScript.ps1\""
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM0\ARM_GCC_541\Debug\main.o
+In file included from main.c:23:0:
+MyTime.h:80:17: warning: 'timeBuffer' defined but not used [-Wunused-variable]
+     static char timeBuffer[16u];
+                 ^
+MyTime.h:81:17: warning: 'dateBuffer' defined but not used [-Wunused-variable]
+     static char dateBuffer[16u];
+                 ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MyTime.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c MyTime.c -o .\CortexM0\ARM_GCC_541\Debug\MyTime.o
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.03-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\MyTime.o:(.bss+0x0): multiple definition of `alarmFlag'
+.\CortexM0\ARM_GCC_541\Debug\main.o:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Build Failed: 10/27/2020 04:43:24 ---------------

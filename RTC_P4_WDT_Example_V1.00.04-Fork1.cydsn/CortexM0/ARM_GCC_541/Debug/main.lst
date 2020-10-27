@@ -1,0 +1,1851 @@
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"main.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.main,"ax",%progbits
+  20              		.align	2
+  21              		.global	main
+  22              		.code	16
+  23              		.thumb_func
+  24              		.type	main, %function
+  25              	main:
+  26              	.LFB64:
+  27              		.file 1 "main.c"
+   1:main.c        **** /*******************************************************************************
+   2:main.c        **** * File Name: main.c
+   3:main.c        **** *
+   4:main.c        **** * Version: 1.00
+   5:main.c        **** *
+   6:main.c        **** * Description:
+   7:main.c        **** *  This is the source code for the example project of the RTC_P4 component.
+   8:main.c        **** *
+   9:main.c        **** ********************************************************************************
+  10:main.c        **** * Copyright 2015, Cypress Semiconductor Corporation. All rights reserved.
+  11:main.c        **** * This software is owned by Cypress Semiconductor Corporation and is protected
+  12:main.c        **** * by and subject to worldwide patent and copyright laws and treaties.
+  13:main.c        **** * Therefore, you may use this software only as provided in the license agreement
+  14:main.c        **** * accompanying the software package from which you obtained this software.
+  15:main.c        **** * CYPRESS AND ITS SUPPLIERS MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+  16:main.c        **** * WITH REGARD TO THIS SOFTWARE, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT,
+  17:main.c        **** * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+  18:main.c        **** *******************************************************************************/
+  19:main.c        **** 
+  20:main.c        **** #include <project.h>
+  21:main.c        **** #include <stdio.h>
+  22:main.c        **** #include <stdbool.h>
+  23:main.c        **** #include "MyTime.h"
+  24:main.c        **** #include "MyWDT.h"
+  25:main.c        **** #include "MyBuild.h"
+  26:main.c        **** 
+  27:main.c        **** 
+  28:main.c        **** 
+  29:main.c        **** 
+  30:main.c        **** 
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 2
+
+
+  31:main.c        **** 
+  32:main.c        **** 
+  33:main.c        **** 
+  34:main.c        **** /*******************************************************************************
+  35:main.c        **** * Function Name: main
+  36:main.c        **** ********************************************************************************
+  37:main.c        **** *
+  38:main.c        **** * Summary:
+  39:main.c        **** *  The main() function.
+  40:main.c        **** *
+  41:main.c        **** * Parameters:
+  42:main.c        **** *  None.
+  43:main.c        **** *
+  44:main.c        **** * Return:
+  45:main.c        **** *  None.
+  46:main.c        **** *
+  47:main.c        **** *******************************************************************************/
+  48:main.c        **** int main()
+  49:main.c        **** {
+  28              		.loc 1 49 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 128
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32 0000 30B5     		push	{r4, r5, lr}
+  33              		.cfi_def_cfa_offset 12
+  34              		.cfi_offset 4, -12
+  35              		.cfi_offset 5, -8
+  36              		.cfi_offset 14, -4
+  37 0002 A1B0     		sub	sp, sp, #132
+  38              		.cfi_def_cfa_offset 144
+  50:main.c        ****     DIO_0_0_Write(false);
+  39              		.loc 1 50 0
+  40 0004 0020     		movs	r0, #0
+  41 0006 FFF7FEFF 		bl	DIO_0_0_Write
+  42              	.LVL0:
+  51:main.c        ****     DIO_0_3_Write(false);
+  43              		.loc 1 51 0
+  44 000a 0020     		movs	r0, #0
+  45 000c FFF7FEFF 		bl	DIO_0_3_Write
+  46              	.LVL1:
+  52:main.c        ****     char uartString[0x40] = {' '};
+  47              		.loc 1 52 0
+  48 0010 10AC     		add	r4, sp, #64
+  49 0012 4022     		movs	r2, #64
+  50 0014 0021     		movs	r1, #0
+  51 0016 2000     		movs	r0, r4
+  52 0018 FFF7FEFF 		bl	memset
+  53              	.LVL2:
+  54 001c 2025     		movs	r5, #32
+  55 001e 2570     		strb	r5, [r4]
+  53:main.c        ****     char compileTimeString[0x40] = {' '};
+  56              		.loc 1 53 0
+  57 0020 4022     		movs	r2, #64
+  58 0022 0021     		movs	r1, #0
+  59 0024 6846     		mov	r0, sp
+  60 0026 FFF7FEFF 		bl	memset
+  61              	.LVL3:
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 3
+
+
+  62 002a 6B46     		mov	r3, sp
+  63 002c 1D70     		strb	r5, [r3]
+  64              	.LVL4:
+  54:main.c        ****     
+  55:main.c        ****     uint32 myLoop = 0;
+  56:main.c        ****     /* Start RTC component */
+  57:main.c        ****     initRTC();
+  65              		.loc 1 57 0
+  66 002e FFF7FEFF 		bl	initRTC
+  67              	.LVL5:
+  58:main.c        ****     setRTCUpdate();
+  68              		.loc 1 58 0
+  69 0032 FFF7FEFF 		bl	setRTCUpdate
+  70              	.LVL6:
+  59:main.c        ****     /* Set Date and Time */
+  60:main.c        ****     setTimeOfBuild();
+  71              		.loc 1 60 0
+  72 0036 FFF7FEFF 		bl	setTimeOfBuild
+  73              	.LVL7:
+  61:main.c        ****     
+  62:main.c        ****         /* \x1b[2J\x1b[;H - ANSI ESC sequence for clear screen */
+  63:main.c        ****     sprintf(uartString, "\x1b[2J\x1b[;H");
+  74              		.loc 1 63 0
+  75 003a 494B     		ldr	r3, .L5
+  76 003c 2200     		movs	r2, r4
+  77 003e 03CB     		ldmia	r3!, {r0, r1}
+  78 0040 03C2     		stmia	r2!, {r0, r1}
+  79 0042 1B78     		ldrb	r3, [r3]
+  80 0044 1370     		strb	r3, [r2]
+  64:main.c        ****     UART_PutString(uartString);
+  81              		.loc 1 64 0
+  82 0046 2000     		movs	r0, r4
+  83 0048 FFF7FEFF 		bl	UART_PutString
+  84              	.LVL8:
+  65:main.c        ****     sprintf(uartString, "\r\n\r\n\r\nRTC_P4_WDT_Example_V1.00.04-Fork1 \r\nCompile Time: ");
+  85              		.loc 1 65 0
+  86 004c 3922     		movs	r2, #57
+  87 004e 4549     		ldr	r1, .L5+4
+  88 0050 2000     		movs	r0, r4
+  89 0052 FFF7FEFF 		bl	memcpy
+  90              	.LVL9:
+  66:main.c        ****     UART_PutString(uartString);
+  91              		.loc 1 66 0
+  92 0056 2000     		movs	r0, r4
+  93 0058 FFF7FEFF 		bl	UART_PutString
+  94              	.LVL10:
+  67:main.c        ****     strcpy(compileTimeString,getTimeDateString());
+  95              		.loc 1 67 0
+  96 005c FFF7FEFF 		bl	getTimeDateString
+  97              	.LVL11:
+  98 0060 0100     		movs	r1, r0
+  99 0062 6846     		mov	r0, sp
+ 100 0064 FFF7FEFF 		bl	strcpy
+ 101              	.LVL12:
+  68:main.c        ****     UART_PutString(compileTimeString);
+ 102              		.loc 1 68 0
+ 103 0068 6846     		mov	r0, sp
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 4
+
+
+ 104 006a FFF7FEFF 		bl	UART_PutString
+ 105              	.LVL13:
+  69:main.c        ****     sprintf(uartString, "\r\nInitialization\r\n\r\n");
+ 106              		.loc 1 69 0
+ 107 006e 3E49     		ldr	r1, .L5+8
+ 108 0070 2300     		movs	r3, r4
+ 109 0072 0A00     		movs	r2, r1
+ 110 0074 23CA     		ldmia	r2!, {r0, r1, r5}
+ 111 0076 23C3     		stmia	r3!, {r0, r1, r5}
+ 112 0078 03CA     		ldmia	r2!, {r0, r1}
+ 113 007a 03C3     		stmia	r3!, {r0, r1}
+ 114 007c 1278     		ldrb	r2, [r2]
+ 115 007e 1A70     		strb	r2, [r3]
+  70:main.c        ****     UART_PutString(uartString);
+ 116              		.loc 1 70 0
+ 117 0080 2000     		movs	r0, r4
+ 118 0082 FFF7FEFF 		bl	UART_PutString
+ 119              	.LVL14:
+  71:main.c        ****     printDIEinfo();
+ 120              		.loc 1 71 0
+ 121 0086 FFF7FEFF 		bl	printDIEinfo
+ 122              	.LVL15:
+  72:main.c        ****     sprintf(uartString, "\r\n\r\n\r\n");
+ 123              		.loc 1 72 0
+ 124 008a 384B     		ldr	r3, .L5+12
+ 125 008c 1A68     		ldr	r2, [r3]
+ 126 008e 1092     		str	r2, [sp, #64]
+ 127 0090 9A88     		ldrh	r2, [r3, #4]
+ 128 0092 A280     		strh	r2, [r4, #4]
+ 129 0094 9B79     		ldrb	r3, [r3, #6]
+ 130 0096 A371     		strb	r3, [r4, #6]
+  73:main.c        ****     UART_PutString(uartString);
+ 131              		.loc 1 73 0
+ 132 0098 2000     		movs	r0, r4
+ 133 009a FFF7FEFF 		bl	UART_PutString
+ 134              	.LVL16:
+  74:main.c        ****     
+  75:main.c        ****     getALL_WDT_Values();
+ 135              		.loc 1 75 0
+ 136 009e FFF7FEFF 		bl	getALL_WDT_Values
+ 137              	.LVL17:
+  76:main.c        **** 
+  77:main.c        **** 
+  78:main.c        ****     /* Enable WCO */
+  79:main.c        ****     CySysClkWcoStart();
+ 138              		.loc 1 79 0
+ 139 00a2 FFF7FEFF 		bl	CySysClkWcoStart
+ 140              	.LVL18:
+  80:main.c        ****     
+  81:main.c        ****     /* Enable global interrupts */
+  82:main.c        ****     CyGlobalIntEnable;
+ 141              		.loc 1 82 0
+ 142              		.syntax divided
+ 143              	@ 82 "main.c" 1
+ 144 00a6 62B6     		CPSIE   i
+ 145              	@ 0 "" 2
+  83:main.c        **** 
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 5
+
+
+  84:main.c        ****     /* Alarm structure initialization */
+  85:main.c        ****     //alarmTimeDate.time = ALARM_TIME_HR_MIN_SEC;
+  86:main.c        ****     //alarmTimeDate.date = ALARM_DATE_MONTH_DAY_YEAR;
+  87:main.c        ****     
+  88:main.c        ****     initWDT0();
+ 146              		.loc 1 88 0
+ 147              		.thumb
+ 148              		.syntax unified
+ 149 00a8 FFF7FEFF 		bl	initWDT0
+ 150              	.LVL19:
+  89:main.c        ****     
+  90:main.c        ****     getALL_WDT_Values();
+ 151              		.loc 1 90 0
+ 152 00ac FFF7FEFF 		bl	getALL_WDT_Values
+ 153              	.LVL20:
+  91:main.c        **** 
+  92:main.c        **** 
+  93:main.c        ****     sprintf(uartString, "\r\nEntering Main Loop\r\n\r\n\r\n");
+ 154              		.loc 1 93 0
+ 155 00b0 2F49     		ldr	r1, .L5+16
+ 156 00b2 2300     		movs	r3, r4
+ 157 00b4 0A00     		movs	r2, r1
+ 158 00b6 23CA     		ldmia	r2!, {r0, r1, r5}
+ 159 00b8 23C3     		stmia	r3!, {r0, r1, r5}
+ 160 00ba 23CA     		ldmia	r2!, {r0, r1, r5}
+ 161 00bc 23C3     		stmia	r3!, {r0, r1, r5}
+ 162 00be 1188     		ldrh	r1, [r2]
+ 163 00c0 1980     		strh	r1, [r3]
+ 164 00c2 9278     		ldrb	r2, [r2, #2]
+ 165 00c4 9A70     		strb	r2, [r3, #2]
+  94:main.c        ****     UART_PutString(uartString);
+ 166              		.loc 1 94 0
+ 167 00c6 2000     		movs	r0, r4
+ 168 00c8 FFF7FEFF 		bl	UART_PutString
+ 169              	.LVL21:
+  95:main.c        **** 
+  96:main.c        ****     DIO_0_0_Write(!(DIO_0_0_Read()));
+ 170              		.loc 1 96 0
+ 171 00cc FFF7FEFF 		bl	DIO_0_0_Read
+ 172              	.LVL22:
+ 173 00d0 0300     		movs	r3, r0
+ 174 00d2 5842     		rsbs	r0, r3, #0
+ 175 00d4 5841     		adcs	r0, r0, r3
+ 176 00d6 C0B2     		uxtb	r0, r0
+ 177 00d8 FFF7FEFF 		bl	DIO_0_0_Write
+ 178              	.LVL23:
+  55:main.c        ****     /* Start RTC component */
+ 179              		.loc 1 55 0
+ 180 00dc 0024     		movs	r4, #0
+  97:main.c        ****     while(myLoop <= 400)
+ 181              		.loc 1 97 0
+ 182 00de 18E0     		b	.L2
+ 183              	.LVL24:
+ 184              	.L4:
+  98:main.c        ****     {
+  99:main.c        ****         
+ 100:main.c        ****         /* Get Date and Time from RTC */
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 6
+
+
+ 101:main.c        ****         UART_PutString(getTimeDateString());
+ 185              		.loc 1 101 0
+ 186 00e0 FFF7FEFF 		bl	getTimeDateString
+ 187              	.LVL25:
+ 188 00e4 FFF7FEFF 		bl	UART_PutString
+ 189              	.LVL26:
+ 102:main.c        **** 
+ 103:main.c        **** 
+ 104:main.c        ****         /*if (alarmFlag == 1u)
+ 105:main.c        ****         {
+ 106:main.c        ****             UART_PutString("Alarm ");
+ 107:main.c        ****             alarmFlag  = 0u;
+ 108:main.c        ****         }
+ 109:main.c        ****         else
+ 110:main.c        ****         {*/
+ 111:main.c        ****         //    UART_PutString("No-alarm");
+ 112:main.c        ****         //}
+ 113:main.c        **** 
+ 114:main.c        ****         UART_PutString("\r");
+ 190              		.loc 1 114 0
+ 191 00e8 2248     		ldr	r0, .L5+20
+ 192 00ea FFF7FEFF 		bl	UART_PutString
+ 193              	.LVL27:
+ 115:main.c        **** 
+ 116:main.c        ****         /* Switch to Sleep Mode */
+ 117:main.c        ****         CySysWatchdogFeed(0);
+ 194              		.loc 1 117 0
+ 195 00ee 0020     		movs	r0, #0
+ 196 00f0 FFF7FEFF 		bl	CySysWatchdogFeed
+ 197              	.LVL28:
+ 118:main.c        ****         CySysPmDeepSleep();
+ 198              		.loc 1 118 0
+ 199 00f4 FFF7FEFF 		bl	CySysPmDeepSleep
+ 200              	.LVL29:
+ 119:main.c        ****         DIO_0_0_Write(!(DIO_0_0_Read()));
+ 201              		.loc 1 119 0
+ 202 00f8 FFF7FEFF 		bl	DIO_0_0_Read
+ 203              	.LVL30:
+ 204 00fc 0300     		movs	r3, r0
+ 205 00fe 5842     		rsbs	r0, r3, #0
+ 206 0100 5841     		adcs	r0, r0, r3
+ 207 0102 C0B2     		uxtb	r0, r0
+ 208 0104 FFF7FEFF 		bl	DIO_0_0_Write
+ 209              	.LVL31:
+ 120:main.c        ****         if(myLoop == 3){
+ 210              		.loc 1 120 0
+ 211 0108 032C     		cmp	r4, #3
+ 212 010a 01D1     		bne	.L3
+ 121:main.c        ****             getALL_WDT_Values();
+ 213              		.loc 1 121 0
+ 214 010c FFF7FEFF 		bl	getALL_WDT_Values
+ 215              	.LVL32:
+ 216              	.L3:
+ 122:main.c        ****         }
+ 123:main.c        ****         myLoop++;
+ 217              		.loc 1 123 0
+ 218 0110 0134     		adds	r4, r4, #1
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 7
+
+
+ 219              	.LVL33:
+ 220              	.L2:
+  97:main.c        ****     {
+ 221              		.loc 1 97 0
+ 222 0112 C823     		movs	r3, #200
+ 223 0114 5B00     		lsls	r3, r3, #1
+ 224 0116 9C42     		cmp	r4, r3
+ 225 0118 E2D9     		bls	.L4
+ 124:main.c        ****     }
+ 125:main.c        ****     sprintf(uartString, "\r\n\r\n\r\nProgram finished running:  %lu .\r\n", myLoop);
+ 226              		.loc 1 125 0
+ 227 011a 10AD     		add	r5, sp, #64
+ 228 011c 2200     		movs	r2, r4
+ 229 011e 1649     		ldr	r1, .L5+24
+ 230 0120 2800     		movs	r0, r5
+ 231 0122 FFF7FEFF 		bl	sprintf
+ 232              	.LVL34:
+ 126:main.c        ****     UART_PutString(uartString);
+ 233              		.loc 1 126 0
+ 234 0126 2800     		movs	r0, r5
+ 235 0128 FFF7FEFF 		bl	UART_PutString
+ 236              	.LVL35:
+ 127:main.c        ****     UART_PutString(compileTimeString);
+ 237              		.loc 1 127 0
+ 238 012c 6846     		mov	r0, sp
+ 239 012e FFF7FEFF 		bl	UART_PutString
+ 240              	.LVL36:
+ 128:main.c        ****     UART_PutString("_");
+ 241              		.loc 1 128 0
+ 242 0132 1248     		ldr	r0, .L5+28
+ 243 0134 FFF7FEFF 		bl	UART_PutString
+ 244              	.LVL37:
+ 129:main.c        ****     UART_PutString(getTimeDateString());
+ 245              		.loc 1 129 0
+ 246 0138 FFF7FEFF 		bl	getTimeDateString
+ 247              	.LVL38:
+ 248 013c FFF7FEFF 		bl	UART_PutString
+ 249              	.LVL39:
+ 130:main.c        ****     sprintf(uartString, "_Consol-LOG\r\n\r\n\r\n");
+ 250              		.loc 1 130 0
+ 251 0140 0F4B     		ldr	r3, .L5+32
+ 252 0142 2A00     		movs	r2, r5
+ 253 0144 13CB     		ldmia	r3!, {r0, r1, r4}
+ 254 0146 13C2     		stmia	r2!, {r0, r1, r4}
+ 255              	.LVL40:
+ 256 0148 1900     		movs	r1, r3
+ 257 014a 1B68     		ldr	r3, [r3]
+ 258 014c 1360     		str	r3, [r2]
+ 259 014e 8B88     		ldrh	r3, [r1, #4]
+ 260 0150 9380     		strh	r3, [r2, #4]
+ 131:main.c        ****     UART_PutString(uartString);
+ 261              		.loc 1 131 0
+ 262 0152 2800     		movs	r0, r5
+ 263 0154 FFF7FEFF 		bl	UART_PutString
+ 264              	.LVL41:
+ 132:main.c        **** }
+ 265              		.loc 1 132 0
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 8
+
+
+ 266 0158 0020     		movs	r0, #0
+ 267 015a 21B0     		add	sp, sp, #132
+ 268              		@ sp needed
+ 269 015c 30BD     		pop	{r4, r5, pc}
+ 270              	.L6:
+ 271 015e C046     		.align	2
+ 272              	.L5:
+ 273 0160 00000000 		.word	.LC0
+ 274 0164 0C000000 		.word	.LC2
+ 275 0168 48000000 		.word	.LC4
+ 276 016c 60000000 		.word	.LC6
+ 277 0170 68000000 		.word	.LC8
+ 278 0174 84000000 		.word	.LC10
+ 279 0178 88000000 		.word	.LC12
+ 280 017c B4000000 		.word	.LC14
+ 281 0180 B8000000 		.word	.LC16
+ 282              		.cfi_endproc
+ 283              	.LFE64:
+ 284              		.size	main, .-main
+ 285              		.comm	uniqueUniqueIdInfo,80,4
+ 286              		.comm	commonUniqueIdInfo,60,4
+ 287              		.comm	uniqueId,8,4
+ 288              		.comm	date,4,4
+ 289              		.comm	time,4,4
+ 290              		.comm	alarmTimeDate,16,4
+ 291              		.section	.rodata.str1.4,"aMS",%progbits,1
+ 292              		.align	2
+ 293              	.LC0:
+ 294 0000 1B5B324A 		.ascii	"\033[2J\033[;H\000"
+ 294      1B5B3B48 
+ 294      00
+ 295 0009 000000   		.space	3
+ 296              	.LC2:
+ 297 000c 0D0A0D0A 		.ascii	"\015\012\015\012\015\012RTC_P4_WDT_Example_V1.00.04"
+ 297      0D0A5254 
+ 297      435F5034 
+ 297      5F574454 
+ 297      5F457861 
+ 298 002d 2D466F72 		.ascii	"-Fork1 \015\012Compile Time: \000"
+ 298      6B31200D 
+ 298      0A436F6D 
+ 298      70696C65 
+ 298      2054696D 
+ 299 0045 000000   		.space	3
+ 300              	.LC4:
+ 301 0048 0D0A496E 		.ascii	"\015\012Initialization\015\012\015\012\000"
+ 301      69746961 
+ 301      6C697A61 
+ 301      74696F6E 
+ 301      0D0A0D0A 
+ 302 005d 000000   		.space	3
+ 303              	.LC6:
+ 304 0060 0D0A0D0A 		.ascii	"\015\012\015\012\015\012\000"
+ 304      0D0A00
+ 305 0067 00       		.space	1
+ 306              	.LC8:
+ 307 0068 0D0A456E 		.ascii	"\015\012Entering Main Loop\015\012\015\012\015\012\000"
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 9
+
+
+ 307      74657269 
+ 307      6E67204D 
+ 307      61696E20 
+ 307      4C6F6F70 
+ 308 0083 00       		.space	1
+ 309              	.LC10:
+ 310 0084 0D00     		.ascii	"\015\000"
+ 311 0086 0000     		.space	2
+ 312              	.LC12:
+ 313 0088 0D0A0D0A 		.ascii	"\015\012\015\012\015\012Program finished running:  "
+ 313      0D0A5072 
+ 313      6F677261 
+ 313      6D206669 
+ 313      6E697368 
+ 314 00a9 256C7520 		.ascii	"%lu .\015\012\000"
+ 314      2E0D0A00 
+ 315 00b1 000000   		.space	3
+ 316              	.LC14:
+ 317 00b4 5F00     		.ascii	"_\000"
+ 318 00b6 0000     		.space	2
+ 319              	.LC16:
+ 320 00b8 5F436F6E 		.ascii	"_Consol-LOG\015\012\015\012\015\012\000"
+ 320      736F6C2D 
+ 320      4C4F470D 
+ 320      0A0D0A0D 
+ 320      0A00
+ 321              		.text
+ 322              	.Letext0:
+ 323              		.file 2 "Generated_Source\\PSoC4/cytypes.h"
+ 324              		.file 3 "Generated_Source\\PSoC4/RTC.h"
+ 325              		.file 4 "MyTime.h"
+ 326              		.file 5 "MyBuild.h"
+ 327              		.file 6 "Generated_Source\\PSoC4/DIO_0_0.h"
+ 328              		.file 7 "Generated_Source\\PSoC4/DIO_0_3.h"
+ 329              		.file 8 "Generated_Source\\PSoC4/UART.h"
+ 330              		.file 9 "c:\\program files (x86)\\cypress\\psoc creator\\4.3\\psoc creator\\import\\gnu\\arm\\5.4.
+ 331              		.file 10 "MyWDT.h"
+ 332              		.file 11 "Generated_Source\\PSoC4/CyLFClk.h"
+ 333              		.file 12 "Generated_Source\\PSoC4/cyPm.h"
+ 334              		.file 13 "c:\\program files (x86)\\cypress\\psoc creator\\4.3\\psoc creator\\import\\gnu\\arm\\5.4
+ 335              		.section	.debug_info,"",%progbits
+ 336              	.Ldebug_info0:
+ 337 0000 57050000 		.4byte	0x557
+ 338 0004 0400     		.2byte	0x4
+ 339 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 340 000a 04       		.byte	0x4
+ 341 000b 01       		.uleb128 0x1
+ 342 000c AC010000 		.4byte	.LASF50
+ 343 0010 0C       		.byte	0xc
+ 344 0011 58020000 		.4byte	.LASF51
+ 345 0015 64020000 		.4byte	.LASF52
+ 346 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 347 001d 00000000 		.4byte	0
+ 348 0021 00000000 		.4byte	.Ldebug_line0
+ 349 0025 02       		.uleb128 0x2
+ 350 0026 01       		.byte	0x1
+ 351 0027 06       		.byte	0x6
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 10
+
+
+ 352 0028 49030000 		.4byte	.LASF0
+ 353 002c 02       		.uleb128 0x2
+ 354 002d 01       		.byte	0x1
+ 355 002e 08       		.byte	0x8
+ 356 002f F5000000 		.4byte	.LASF1
+ 357 0033 02       		.uleb128 0x2
+ 358 0034 02       		.byte	0x2
+ 359 0035 05       		.byte	0x5
+ 360 0036 E6020000 		.4byte	.LASF2
+ 361 003a 02       		.uleb128 0x2
+ 362 003b 02       		.byte	0x2
+ 363 003c 07       		.byte	0x7
+ 364 003d 3D000000 		.4byte	.LASF3
+ 365 0041 02       		.uleb128 0x2
+ 366 0042 04       		.byte	0x4
+ 367 0043 05       		.byte	0x5
+ 368 0044 34000000 		.4byte	.LASF4
+ 369 0048 02       		.uleb128 0x2
+ 370 0049 04       		.byte	0x4
+ 371 004a 07       		.byte	0x7
+ 372 004b 0A010000 		.4byte	.LASF5
+ 373 004f 02       		.uleb128 0x2
+ 374 0050 08       		.byte	0x8
+ 375 0051 05       		.byte	0x5
+ 376 0052 00000000 		.4byte	.LASF6
+ 377 0056 02       		.uleb128 0x2
+ 378 0057 08       		.byte	0x8
+ 379 0058 07       		.byte	0x7
+ 380 0059 86010000 		.4byte	.LASF7
+ 381 005d 03       		.uleb128 0x3
+ 382 005e 04       		.byte	0x4
+ 383 005f 05       		.byte	0x5
+ 384 0060 696E7400 		.ascii	"int\000"
+ 385 0064 02       		.uleb128 0x2
+ 386 0065 04       		.byte	0x4
+ 387 0066 07       		.byte	0x7
+ 388 0067 70010000 		.4byte	.LASF8
+ 389 006b 04       		.uleb128 0x4
+ 390 006c 42010000 		.4byte	.LASF9
+ 391 0070 02       		.byte	0x2
+ 392 0071 FC01     		.2byte	0x1fc
+ 393 0073 3A000000 		.4byte	0x3a
+ 394 0077 04       		.uleb128 0x4
+ 395 0078 49010000 		.4byte	.LASF10
+ 396 007c 02       		.byte	0x2
+ 397 007d FD01     		.2byte	0x1fd
+ 398 007f 48000000 		.4byte	0x48
+ 399 0083 02       		.uleb128 0x2
+ 400 0084 04       		.byte	0x4
+ 401 0085 04       		.byte	0x4
+ 402 0086 7E000000 		.4byte	.LASF11
+ 403 008a 02       		.uleb128 0x2
+ 404 008b 08       		.byte	0x8
+ 405 008c 04       		.byte	0x4
+ 406 008d 57000000 		.4byte	.LASF12
+ 407 0091 02       		.uleb128 0x2
+ 408 0092 01       		.byte	0x1
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 11
+
+
+ 409 0093 08       		.byte	0x8
+ 410 0094 5F020000 		.4byte	.LASF13
+ 411 0098 02       		.uleb128 0x2
+ 412 0099 08       		.byte	0x8
+ 413 009a 04       		.byte	0x4
+ 414 009b 3D030000 		.4byte	.LASF14
+ 415 009f 02       		.uleb128 0x2
+ 416 00a0 04       		.byte	0x4
+ 417 00a1 07       		.byte	0x7
+ 418 00a2 47020000 		.4byte	.LASF15
+ 419 00a6 05       		.uleb128 0x5
+ 420 00a7 10       		.byte	0x10
+ 421 00a8 03       		.byte	0x3
+ 422 00a9 2E       		.byte	0x2e
+ 423 00aa DF000000 		.4byte	0xdf
+ 424 00ae 06       		.uleb128 0x6
+ 425 00af A7010000 		.4byte	.LASF16
+ 426 00b3 03       		.byte	0x3
+ 427 00b4 30       		.byte	0x30
+ 428 00b5 77000000 		.4byte	0x77
+ 429 00b9 00       		.byte	0
+ 430 00ba 06       		.uleb128 0x6
+ 431 00bb A5000000 		.4byte	.LASF17
+ 432 00bf 03       		.byte	0x3
+ 433 00c0 31       		.byte	0x31
+ 434 00c1 77000000 		.4byte	0x77
+ 435 00c5 04       		.byte	0x4
+ 436 00c6 06       		.uleb128 0x6
+ 437 00c7 9D010000 		.4byte	.LASF18
+ 438 00cb 03       		.byte	0x3
+ 439 00cc 32       		.byte	0x32
+ 440 00cd 77000000 		.4byte	0x77
+ 441 00d1 08       		.byte	0x8
+ 442 00d2 06       		.uleb128 0x6
+ 443 00d3 5E000000 		.4byte	.LASF19
+ 444 00d7 03       		.byte	0x3
+ 445 00d8 33       		.byte	0x33
+ 446 00d9 77000000 		.4byte	0x77
+ 447 00dd 0C       		.byte	0xc
+ 448 00de 00       		.byte	0
+ 449 00df 07       		.uleb128 0x7
+ 450 00e0 B1000000 		.4byte	.LASF20
+ 451 00e4 03       		.byte	0x3
+ 452 00e5 34       		.byte	0x34
+ 453 00e6 A6000000 		.4byte	0xa6
+ 454 00ea 08       		.uleb128 0x8
+ 455 00eb 2B010000 		.4byte	.LASF53
+ 456 00ef 01       		.byte	0x1
+ 457 00f0 30       		.byte	0x30
+ 458 00f1 5D000000 		.4byte	0x5d
+ 459 00f5 00000000 		.4byte	.LFB64
+ 460 00f9 84010000 		.4byte	.LFE64-.LFB64
+ 461 00fd 01       		.uleb128 0x1
+ 462 00fe 9C       		.byte	0x9c
+ 463 00ff 8B030000 		.4byte	0x38b
+ 464 0103 09       		.uleb128 0x9
+ 465 0104 65000000 		.4byte	.LASF21
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 12
+
+
+ 466 0108 01       		.byte	0x1
+ 467 0109 34       		.byte	0x34
+ 468 010a 8B030000 		.4byte	0x38b
+ 469 010e 03       		.uleb128 0x3
+ 470 010f 91       		.byte	0x91
+ 471 0110 B07F     		.sleb128 -80
+ 472 0112 09       		.uleb128 0x9
+ 473 0113 30010000 		.4byte	.LASF22
+ 474 0117 01       		.byte	0x1
+ 475 0118 35       		.byte	0x35
+ 476 0119 8B030000 		.4byte	0x38b
+ 477 011d 03       		.uleb128 0x3
+ 478 011e 91       		.byte	0x91
+ 479 011f F07E     		.sleb128 -144
+ 480 0121 0A       		.uleb128 0xa
+ 481 0122 50000000 		.4byte	.LASF23
+ 482 0126 01       		.byte	0x1
+ 483 0127 37       		.byte	0x37
+ 484 0128 77000000 		.4byte	0x77
+ 485 012c 00000000 		.4byte	.LLST0
+ 486 0130 0B       		.uleb128 0xb
+ 487 0131 0A000000 		.4byte	.LVL0
+ 488 0135 98040000 		.4byte	0x498
+ 489 0139 43010000 		.4byte	0x143
+ 490 013d 0C       		.uleb128 0xc
+ 491 013e 01       		.uleb128 0x1
+ 492 013f 50       		.byte	0x50
+ 493 0140 01       		.uleb128 0x1
+ 494 0141 30       		.byte	0x30
+ 495 0142 00       		.byte	0
+ 496 0143 0B       		.uleb128 0xb
+ 497 0144 10000000 		.4byte	.LVL1
+ 498 0148 A3040000 		.4byte	0x4a3
+ 499 014c 56010000 		.4byte	0x156
+ 500 0150 0C       		.uleb128 0xc
+ 501 0151 01       		.uleb128 0x1
+ 502 0152 50       		.byte	0x50
+ 503 0153 01       		.uleb128 0x1
+ 504 0154 30       		.byte	0x30
+ 505 0155 00       		.byte	0
+ 506 0156 0B       		.uleb128 0xb
+ 507 0157 1C000000 		.4byte	.LVL2
+ 508 015b AE040000 		.4byte	0x4ae
+ 509 015f 75010000 		.4byte	0x175
+ 510 0163 0C       		.uleb128 0xc
+ 511 0164 01       		.uleb128 0x1
+ 512 0165 50       		.byte	0x50
+ 513 0166 02       		.uleb128 0x2
+ 514 0167 74       		.byte	0x74
+ 515 0168 00       		.sleb128 0
+ 516 0169 0C       		.uleb128 0xc
+ 517 016a 01       		.uleb128 0x1
+ 518 016b 51       		.byte	0x51
+ 519 016c 01       		.uleb128 0x1
+ 520 016d 30       		.byte	0x30
+ 521 016e 0C       		.uleb128 0xc
+ 522 016f 01       		.uleb128 0x1
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 13
+
+
+ 523 0170 52       		.byte	0x52
+ 524 0171 02       		.uleb128 0x2
+ 525 0172 08       		.byte	0x8
+ 526 0173 40       		.byte	0x40
+ 527 0174 00       		.byte	0
+ 528 0175 0B       		.uleb128 0xb
+ 529 0176 2A000000 		.4byte	.LVL3
+ 530 017a AE040000 		.4byte	0x4ae
+ 531 017e 94010000 		.4byte	0x194
+ 532 0182 0C       		.uleb128 0xc
+ 533 0183 01       		.uleb128 0x1
+ 534 0184 50       		.byte	0x50
+ 535 0185 02       		.uleb128 0x2
+ 536 0186 7D       		.byte	0x7d
+ 537 0187 00       		.sleb128 0
+ 538 0188 0C       		.uleb128 0xc
+ 539 0189 01       		.uleb128 0x1
+ 540 018a 51       		.byte	0x51
+ 541 018b 01       		.uleb128 0x1
+ 542 018c 30       		.byte	0x30
+ 543 018d 0C       		.uleb128 0xc
+ 544 018e 01       		.uleb128 0x1
+ 545 018f 52       		.byte	0x52
+ 546 0190 02       		.uleb128 0x2
+ 547 0191 08       		.byte	0x8
+ 548 0192 40       		.byte	0x40
+ 549 0193 00       		.byte	0
+ 550 0194 0D       		.uleb128 0xd
+ 551 0195 32000000 		.4byte	.LVL5
+ 552 0199 B7040000 		.4byte	0x4b7
+ 553 019d 0D       		.uleb128 0xd
+ 554 019e 36000000 		.4byte	.LVL6
+ 555 01a2 C2040000 		.4byte	0x4c2
+ 556 01a6 0D       		.uleb128 0xd
+ 557 01a7 3A000000 		.4byte	.LVL7
+ 558 01ab CD040000 		.4byte	0x4cd
+ 559 01af 0B       		.uleb128 0xb
+ 560 01b0 4C000000 		.4byte	.LVL8
+ 561 01b4 D8040000 		.4byte	0x4d8
+ 562 01b8 C3010000 		.4byte	0x1c3
+ 563 01bc 0C       		.uleb128 0xc
+ 564 01bd 01       		.uleb128 0x1
+ 565 01be 50       		.byte	0x50
+ 566 01bf 02       		.uleb128 0x2
+ 567 01c0 74       		.byte	0x74
+ 568 01c1 00       		.sleb128 0
+ 569 01c2 00       		.byte	0
+ 570 01c3 0B       		.uleb128 0xb
+ 571 01c4 56000000 		.4byte	.LVL9
+ 572 01c8 E3040000 		.4byte	0x4e3
+ 573 01cc E6010000 		.4byte	0x1e6
+ 574 01d0 0C       		.uleb128 0xc
+ 575 01d1 01       		.uleb128 0x1
+ 576 01d2 50       		.byte	0x50
+ 577 01d3 02       		.uleb128 0x2
+ 578 01d4 74       		.byte	0x74
+ 579 01d5 00       		.sleb128 0
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 14
+
+
+ 580 01d6 0C       		.uleb128 0xc
+ 581 01d7 01       		.uleb128 0x1
+ 582 01d8 51       		.byte	0x51
+ 583 01d9 05       		.uleb128 0x5
+ 584 01da 03       		.byte	0x3
+ 585 01db 0C000000 		.4byte	.LC2
+ 586 01df 0C       		.uleb128 0xc
+ 587 01e0 01       		.uleb128 0x1
+ 588 01e1 52       		.byte	0x52
+ 589 01e2 02       		.uleb128 0x2
+ 590 01e3 08       		.byte	0x8
+ 591 01e4 39       		.byte	0x39
+ 592 01e5 00       		.byte	0
+ 593 01e6 0B       		.uleb128 0xb
+ 594 01e7 5C000000 		.4byte	.LVL10
+ 595 01eb D8040000 		.4byte	0x4d8
+ 596 01ef FA010000 		.4byte	0x1fa
+ 597 01f3 0C       		.uleb128 0xc
+ 598 01f4 01       		.uleb128 0x1
+ 599 01f5 50       		.byte	0x50
+ 600 01f6 02       		.uleb128 0x2
+ 601 01f7 74       		.byte	0x74
+ 602 01f8 00       		.sleb128 0
+ 603 01f9 00       		.byte	0
+ 604 01fa 0D       		.uleb128 0xd
+ 605 01fb 60000000 		.4byte	.LVL11
+ 606 01ff EC040000 		.4byte	0x4ec
+ 607 0203 0B       		.uleb128 0xb
+ 608 0204 68000000 		.4byte	.LVL12
+ 609 0208 F7040000 		.4byte	0x4f7
+ 610 020c 17020000 		.4byte	0x217
+ 611 0210 0C       		.uleb128 0xc
+ 612 0211 01       		.uleb128 0x1
+ 613 0212 50       		.byte	0x50
+ 614 0213 02       		.uleb128 0x2
+ 615 0214 7D       		.byte	0x7d
+ 616 0215 00       		.sleb128 0
+ 617 0216 00       		.byte	0
+ 618 0217 0B       		.uleb128 0xb
+ 619 0218 6E000000 		.4byte	.LVL13
+ 620 021c D8040000 		.4byte	0x4d8
+ 621 0220 2B020000 		.4byte	0x22b
+ 622 0224 0C       		.uleb128 0xc
+ 623 0225 01       		.uleb128 0x1
+ 624 0226 50       		.byte	0x50
+ 625 0227 02       		.uleb128 0x2
+ 626 0228 7D       		.byte	0x7d
+ 627 0229 00       		.sleb128 0
+ 628 022a 00       		.byte	0
+ 629 022b 0B       		.uleb128 0xb
+ 630 022c 86000000 		.4byte	.LVL14
+ 631 0230 D8040000 		.4byte	0x4d8
+ 632 0234 3F020000 		.4byte	0x23f
+ 633 0238 0C       		.uleb128 0xc
+ 634 0239 01       		.uleb128 0x1
+ 635 023a 50       		.byte	0x50
+ 636 023b 02       		.uleb128 0x2
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 15
+
+
+ 637 023c 74       		.byte	0x74
+ 638 023d 00       		.sleb128 0
+ 639 023e 00       		.byte	0
+ 640 023f 0D       		.uleb128 0xd
+ 641 0240 8A000000 		.4byte	.LVL15
+ 642 0244 02050000 		.4byte	0x502
+ 643 0248 0B       		.uleb128 0xb
+ 644 0249 9E000000 		.4byte	.LVL16
+ 645 024d D8040000 		.4byte	0x4d8
+ 646 0251 5C020000 		.4byte	0x25c
+ 647 0255 0C       		.uleb128 0xc
+ 648 0256 01       		.uleb128 0x1
+ 649 0257 50       		.byte	0x50
+ 650 0258 02       		.uleb128 0x2
+ 651 0259 74       		.byte	0x74
+ 652 025a 00       		.sleb128 0
+ 653 025b 00       		.byte	0
+ 654 025c 0D       		.uleb128 0xd
+ 655 025d A2000000 		.4byte	.LVL17
+ 656 0261 0D050000 		.4byte	0x50d
+ 657 0265 0D       		.uleb128 0xd
+ 658 0266 A6000000 		.4byte	.LVL18
+ 659 026a 18050000 		.4byte	0x518
+ 660 026e 0D       		.uleb128 0xd
+ 661 026f AC000000 		.4byte	.LVL19
+ 662 0273 23050000 		.4byte	0x523
+ 663 0277 0D       		.uleb128 0xd
+ 664 0278 B0000000 		.4byte	.LVL20
+ 665 027c 0D050000 		.4byte	0x50d
+ 666 0280 0B       		.uleb128 0xb
+ 667 0281 CC000000 		.4byte	.LVL21
+ 668 0285 D8040000 		.4byte	0x4d8
+ 669 0289 94020000 		.4byte	0x294
+ 670 028d 0C       		.uleb128 0xc
+ 671 028e 01       		.uleb128 0x1
+ 672 028f 50       		.byte	0x50
+ 673 0290 02       		.uleb128 0x2
+ 674 0291 74       		.byte	0x74
+ 675 0292 00       		.sleb128 0
+ 676 0293 00       		.byte	0
+ 677 0294 0D       		.uleb128 0xd
+ 678 0295 D0000000 		.4byte	.LVL22
+ 679 0299 2E050000 		.4byte	0x52e
+ 680 029d 0D       		.uleb128 0xd
+ 681 029e DC000000 		.4byte	.LVL23
+ 682 02a2 98040000 		.4byte	0x498
+ 683 02a6 0D       		.uleb128 0xd
+ 684 02a7 E4000000 		.4byte	.LVL25
+ 685 02ab EC040000 		.4byte	0x4ec
+ 686 02af 0D       		.uleb128 0xd
+ 687 02b0 E8000000 		.4byte	.LVL26
+ 688 02b4 D8040000 		.4byte	0x4d8
+ 689 02b8 0B       		.uleb128 0xb
+ 690 02b9 EE000000 		.4byte	.LVL27
+ 691 02bd D8040000 		.4byte	0x4d8
+ 692 02c1 CF020000 		.4byte	0x2cf
+ 693 02c5 0C       		.uleb128 0xc
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 16
+
+
+ 694 02c6 01       		.uleb128 0x1
+ 695 02c7 50       		.byte	0x50
+ 696 02c8 05       		.uleb128 0x5
+ 697 02c9 03       		.byte	0x3
+ 698 02ca 84000000 		.4byte	.LC10
+ 699 02ce 00       		.byte	0
+ 700 02cf 0B       		.uleb128 0xb
+ 701 02d0 F4000000 		.4byte	.LVL28
+ 702 02d4 39050000 		.4byte	0x539
+ 703 02d8 E2020000 		.4byte	0x2e2
+ 704 02dc 0C       		.uleb128 0xc
+ 705 02dd 01       		.uleb128 0x1
+ 706 02de 50       		.byte	0x50
+ 707 02df 01       		.uleb128 0x1
+ 708 02e0 30       		.byte	0x30
+ 709 02e1 00       		.byte	0
+ 710 02e2 0D       		.uleb128 0xd
+ 711 02e3 F8000000 		.4byte	.LVL29
+ 712 02e7 44050000 		.4byte	0x544
+ 713 02eb 0D       		.uleb128 0xd
+ 714 02ec FC000000 		.4byte	.LVL30
+ 715 02f0 2E050000 		.4byte	0x52e
+ 716 02f4 0D       		.uleb128 0xd
+ 717 02f5 08010000 		.4byte	.LVL31
+ 718 02f9 98040000 		.4byte	0x498
+ 719 02fd 0D       		.uleb128 0xd
+ 720 02fe 10010000 		.4byte	.LVL32
+ 721 0302 0D050000 		.4byte	0x50d
+ 722 0306 0B       		.uleb128 0xb
+ 723 0307 26010000 		.4byte	.LVL34
+ 724 030b 4F050000 		.4byte	0x54f
+ 725 030f 29030000 		.4byte	0x329
+ 726 0313 0C       		.uleb128 0xc
+ 727 0314 01       		.uleb128 0x1
+ 728 0315 50       		.byte	0x50
+ 729 0316 02       		.uleb128 0x2
+ 730 0317 75       		.byte	0x75
+ 731 0318 00       		.sleb128 0
+ 732 0319 0C       		.uleb128 0xc
+ 733 031a 01       		.uleb128 0x1
+ 734 031b 51       		.byte	0x51
+ 735 031c 05       		.uleb128 0x5
+ 736 031d 03       		.byte	0x3
+ 737 031e 88000000 		.4byte	.LC12
+ 738 0322 0C       		.uleb128 0xc
+ 739 0323 01       		.uleb128 0x1
+ 740 0324 52       		.byte	0x52
+ 741 0325 02       		.uleb128 0x2
+ 742 0326 74       		.byte	0x74
+ 743 0327 00       		.sleb128 0
+ 744 0328 00       		.byte	0
+ 745 0329 0B       		.uleb128 0xb
+ 746 032a 2C010000 		.4byte	.LVL35
+ 747 032e D8040000 		.4byte	0x4d8
+ 748 0332 3D030000 		.4byte	0x33d
+ 749 0336 0C       		.uleb128 0xc
+ 750 0337 01       		.uleb128 0x1
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 17
+
+
+ 751 0338 50       		.byte	0x50
+ 752 0339 02       		.uleb128 0x2
+ 753 033a 75       		.byte	0x75
+ 754 033b 00       		.sleb128 0
+ 755 033c 00       		.byte	0
+ 756 033d 0B       		.uleb128 0xb
+ 757 033e 32010000 		.4byte	.LVL36
+ 758 0342 D8040000 		.4byte	0x4d8
+ 759 0346 51030000 		.4byte	0x351
+ 760 034a 0C       		.uleb128 0xc
+ 761 034b 01       		.uleb128 0x1
+ 762 034c 50       		.byte	0x50
+ 763 034d 02       		.uleb128 0x2
+ 764 034e 7D       		.byte	0x7d
+ 765 034f 00       		.sleb128 0
+ 766 0350 00       		.byte	0
+ 767 0351 0B       		.uleb128 0xb
+ 768 0352 38010000 		.4byte	.LVL37
+ 769 0356 D8040000 		.4byte	0x4d8
+ 770 035a 68030000 		.4byte	0x368
+ 771 035e 0C       		.uleb128 0xc
+ 772 035f 01       		.uleb128 0x1
+ 773 0360 50       		.byte	0x50
+ 774 0361 05       		.uleb128 0x5
+ 775 0362 03       		.byte	0x3
+ 776 0363 B4000000 		.4byte	.LC14
+ 777 0367 00       		.byte	0
+ 778 0368 0D       		.uleb128 0xd
+ 779 0369 3C010000 		.4byte	.LVL38
+ 780 036d EC040000 		.4byte	0x4ec
+ 781 0371 0D       		.uleb128 0xd
+ 782 0372 40010000 		.4byte	.LVL39
+ 783 0376 D8040000 		.4byte	0x4d8
+ 784 037a 0E       		.uleb128 0xe
+ 785 037b 58010000 		.4byte	.LVL41
+ 786 037f D8040000 		.4byte	0x4d8
+ 787 0383 0C       		.uleb128 0xc
+ 788 0384 01       		.uleb128 0x1
+ 789 0385 50       		.byte	0x50
+ 790 0386 02       		.uleb128 0x2
+ 791 0387 75       		.byte	0x75
+ 792 0388 00       		.sleb128 0
+ 793 0389 00       		.byte	0
+ 794 038a 00       		.byte	0
+ 795 038b 0F       		.uleb128 0xf
+ 796 038c 91000000 		.4byte	0x91
+ 797 0390 9B030000 		.4byte	0x39b
+ 798 0394 10       		.uleb128 0x10
+ 799 0395 9F000000 		.4byte	0x9f
+ 800 0399 3F       		.byte	0x3f
+ 801 039a 00       		.byte	0
+ 802 039b 0F       		.uleb128 0xf
+ 803 039c 91000000 		.4byte	0x91
+ 804 03a0 AB030000 		.4byte	0x3ab
+ 805 03a4 10       		.uleb128 0x10
+ 806 03a5 9F000000 		.4byte	0x9f
+ 807 03a9 0F       		.byte	0xf
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 18
+
+
+ 808 03aa 00       		.byte	0
+ 809 03ab 11       		.uleb128 0x11
+ 810 03ac 0E000000 		.4byte	.LASF24
+ 811 03b0 04       		.byte	0x4
+ 812 03b1 57       		.byte	0x57
+ 813 03b2 9B030000 		.4byte	0x39b
+ 814 03b6 11       		.uleb128 0x11
+ 815 03b7 FD020000 		.4byte	.LASF25
+ 816 03bb 04       		.byte	0x4
+ 817 03bc 58       		.byte	0x58
+ 818 03bd 9B030000 		.4byte	0x39b
+ 819 03c1 0F       		.uleb128 0xf
+ 820 03c2 91000000 		.4byte	0x91
+ 821 03c6 D1030000 		.4byte	0x3d1
+ 822 03ca 10       		.uleb128 0x10
+ 823 03cb 9F000000 		.4byte	0x9f
+ 824 03cf 27       		.byte	0x27
+ 825 03d0 00       		.byte	0
+ 826 03d1 11       		.uleb128 0x11
+ 827 03d2 6C030000 		.4byte	.LASF26
+ 828 03d6 04       		.byte	0x4
+ 829 03d7 59       		.byte	0x59
+ 830 03d8 C1030000 		.4byte	0x3c1
+ 831 03dc 0F       		.uleb128 0xf
+ 832 03dd EC030000 		.4byte	0x3ec
+ 833 03e1 EC030000 		.4byte	0x3ec
+ 834 03e5 10       		.uleb128 0x10
+ 835 03e6 9F000000 		.4byte	0x9f
+ 836 03ea 0B       		.byte	0xb
+ 837 03eb 00       		.byte	0
+ 838 03ec 12       		.uleb128 0x12
+ 839 03ed 6B000000 		.4byte	0x6b
+ 840 03f1 13       		.uleb128 0x13
+ 841 03f2 26030000 		.4byte	.LASF27
+ 842 03f6 03       		.byte	0x3
+ 843 03f7 E001     		.2byte	0x1e0
+ 844 03f9 FD030000 		.4byte	0x3fd
+ 845 03fd 12       		.uleb128 0x12
+ 846 03fe DC030000 		.4byte	0x3dc
+ 847 0402 14       		.uleb128 0x14
+ 848 0403 84000000 		.4byte	.LASF28
+ 849 0407 04       		.byte	0x4
+ 850 0408 50       		.byte	0x50
+ 851 0409 DF000000 		.4byte	0xdf
+ 852 040d 05       		.uleb128 0x5
+ 853 040e 03       		.byte	0x3
+ 854 040f 00000000 		.4byte	alarmTimeDate
+ 855 0413 14       		.uleb128 0x14
+ 856 0414 A7010000 		.4byte	.LASF16
+ 857 0418 04       		.byte	0x4
+ 858 0419 55       		.byte	0x55
+ 859 041a 77000000 		.4byte	0x77
+ 860 041e 05       		.uleb128 0x5
+ 861 041f 03       		.byte	0x3
+ 862 0420 00000000 		.4byte	time
+ 863 0424 14       		.uleb128 0x14
+ 864 0425 A5000000 		.4byte	.LASF17
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 19
+
+
+ 865 0429 04       		.byte	0x4
+ 866 042a 56       		.byte	0x56
+ 867 042b 77000000 		.4byte	0x77
+ 868 042f 05       		.uleb128 0x5
+ 869 0430 03       		.byte	0x3
+ 870 0431 00000000 		.4byte	date
+ 871 0435 0F       		.uleb128 0xf
+ 872 0436 77000000 		.4byte	0x77
+ 873 043a 45040000 		.4byte	0x445
+ 874 043e 10       		.uleb128 0x10
+ 875 043f 9F000000 		.4byte	0x9f
+ 876 0443 01       		.byte	0x1
+ 877 0444 00       		.byte	0
+ 878 0445 14       		.uleb128 0x14
+ 879 0446 19000000 		.4byte	.LASF29
+ 880 044a 05       		.byte	0x5
+ 881 044b 30       		.byte	0x30
+ 882 044c 35040000 		.4byte	0x435
+ 883 0450 05       		.uleb128 0x5
+ 884 0451 03       		.byte	0x3
+ 885 0452 00000000 		.4byte	uniqueId
+ 886 0456 0F       		.uleb128 0xf
+ 887 0457 91000000 		.4byte	0x91
+ 888 045b 66040000 		.4byte	0x466
+ 889 045f 10       		.uleb128 0x10
+ 890 0460 9F000000 		.4byte	0x9f
+ 891 0464 3B       		.byte	0x3b
+ 892 0465 00       		.byte	0
+ 893 0466 14       		.uleb128 0x14
+ 894 0467 E2000000 		.4byte	.LASF30
+ 895 046b 05       		.byte	0x5
+ 896 046c 2B       		.byte	0x2b
+ 897 046d 56040000 		.4byte	0x456
+ 898 0471 05       		.uleb128 0x5
+ 899 0472 03       		.byte	0x3
+ 900 0473 00000000 		.4byte	commonUniqueIdInfo
+ 901 0477 0F       		.uleb128 0xf
+ 902 0478 91000000 		.4byte	0x91
+ 903 047c 87040000 		.4byte	0x487
+ 904 0480 10       		.uleb128 0x10
+ 905 0481 9F000000 		.4byte	0x9f
+ 906 0485 4F       		.byte	0x4f
+ 907 0486 00       		.byte	0
+ 908 0487 14       		.uleb128 0x14
+ 909 0488 92000000 		.4byte	.LASF31
+ 910 048c 05       		.byte	0x5
+ 911 048d 2C       		.byte	0x2c
+ 912 048e 77040000 		.4byte	0x477
+ 913 0492 05       		.uleb128 0x5
+ 914 0493 03       		.byte	0x3
+ 915 0494 00000000 		.4byte	uniqueUniqueIdInfo
+ 916 0498 15       		.uleb128 0x15
+ 917 0499 70000000 		.4byte	.LASF32
+ 918 049d 70000000 		.4byte	.LASF32
+ 919 04a1 06       		.byte	0x6
+ 920 04a2 33       		.byte	0x33
+ 921 04a3 15       		.uleb128 0x15
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 20
+
+
+ 922 04a4 50010000 		.4byte	.LASF33
+ 923 04a8 50010000 		.4byte	.LASF33
+ 924 04ac 07       		.byte	0x7
+ 925 04ad 33       		.byte	0x33
+ 926 04ae 16       		.uleb128 0x16
+ 927 04af 03010000 		.4byte	.LASF38
+ 928 04b3 03010000 		.4byte	.LASF38
+ 929 04b7 15       		.uleb128 0x15
+ 930 04b8 50020000 		.4byte	.LASF34
+ 931 04bc 50020000 		.4byte	.LASF34
+ 932 04c0 04       		.byte	0x4
+ 933 04c1 5B       		.byte	0x5b
+ 934 04c2 15       		.uleb128 0x15
+ 935 04c3 F0020000 		.4byte	.LASF35
+ 936 04c7 F0020000 		.4byte	.LASF35
+ 937 04cb 04       		.byte	0x4
+ 938 04cc 5D       		.byte	0x5d
+ 939 04cd 15       		.uleb128 0x15
+ 940 04ce 1C010000 		.4byte	.LASF36
+ 941 04d2 1C010000 		.4byte	.LASF36
+ 942 04d6 04       		.byte	0x4
+ 943 04d7 61       		.byte	0x61
+ 944 04d8 15       		.uleb128 0x15
+ 945 04d9 55030000 		.4byte	.LASF37
+ 946 04dd 55030000 		.4byte	.LASF37
+ 947 04e1 08       		.byte	0x8
+ 948 04e2 26       		.byte	0x26
+ 949 04e3 16       		.uleb128 0x16
+ 950 04e4 DF020000 		.4byte	.LASF39
+ 951 04e8 DF020000 		.4byte	.LASF39
+ 952 04ec 15       		.uleb128 0x15
+ 953 04ed 22000000 		.4byte	.LASF40
+ 954 04f1 22000000 		.4byte	.LASF40
+ 955 04f5 04       		.byte	0x4
+ 956 04f6 66       		.byte	0x66
+ 957 04f7 15       		.uleb128 0x15
+ 958 04f8 AA000000 		.4byte	.LASF41
+ 959 04fc AA000000 		.4byte	.LASF41
+ 960 0500 09       		.byte	0x9
+ 961 0501 1E       		.byte	0x1e
+ 962 0502 15       		.uleb128 0x15
+ 963 0503 19030000 		.4byte	.LASF42
+ 964 0507 19030000 		.4byte	.LASF42
+ 965 050b 05       		.byte	0x5
+ 966 050c 32       		.byte	0x32
+ 967 050d 15       		.uleb128 0x15
+ 968 050e 5E010000 		.4byte	.LASF43
+ 969 0512 5E010000 		.4byte	.LASF43
+ 970 0516 0A       		.byte	0xa
+ 971 0517 26       		.byte	0x26
+ 972 0518 15       		.uleb128 0x15
+ 973 0519 D1000000 		.4byte	.LASF44
+ 974 051d D1000000 		.4byte	.LASF44
+ 975 0521 0B       		.byte	0xb
+ 976 0522 4E       		.byte	0x4e
+ 977 0523 15       		.uleb128 0x15
+ 978 0524 7D010000 		.4byte	.LASF45
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 21
+
+
+ 979 0528 7D010000 		.4byte	.LASF45
+ 980 052c 0A       		.byte	0xa
+ 981 052d 21       		.byte	0x21
+ 982 052e 15       		.uleb128 0x15
+ 983 052f 3A020000 		.4byte	.LASF46
+ 984 0533 3A020000 		.4byte	.LASF46
+ 985 0537 06       		.byte	0x6
+ 986 0538 32       		.byte	0x32
+ 987 0539 15       		.uleb128 0x15
+ 988 053a BF000000 		.4byte	.LASF47
+ 989 053e BF000000 		.4byte	.LASF47
+ 990 0542 0B       		.byte	0xb
+ 991 0543 7C       		.byte	0x7c
+ 992 0544 15       		.uleb128 0x15
+ 993 0545 08030000 		.4byte	.LASF48
+ 994 0549 08030000 		.4byte	.LASF48
+ 995 054d 0C       		.byte	0xc
+ 996 054e 57       		.byte	0x57
+ 997 054f 15       		.uleb128 0x15
+ 998 0550 64030000 		.4byte	.LASF49
+ 999 0554 64030000 		.4byte	.LASF49
+ 1000 0558 0D       		.byte	0xd
+ 1001 0559 E7       		.byte	0xe7
+ 1002 055a 00       		.byte	0
+ 1003              		.section	.debug_abbrev,"",%progbits
+ 1004              	.Ldebug_abbrev0:
+ 1005 0000 01       		.uleb128 0x1
+ 1006 0001 11       		.uleb128 0x11
+ 1007 0002 01       		.byte	0x1
+ 1008 0003 25       		.uleb128 0x25
+ 1009 0004 0E       		.uleb128 0xe
+ 1010 0005 13       		.uleb128 0x13
+ 1011 0006 0B       		.uleb128 0xb
+ 1012 0007 03       		.uleb128 0x3
+ 1013 0008 0E       		.uleb128 0xe
+ 1014 0009 1B       		.uleb128 0x1b
+ 1015 000a 0E       		.uleb128 0xe
+ 1016 000b 55       		.uleb128 0x55
+ 1017 000c 17       		.uleb128 0x17
+ 1018 000d 11       		.uleb128 0x11
+ 1019 000e 01       		.uleb128 0x1
+ 1020 000f 10       		.uleb128 0x10
+ 1021 0010 17       		.uleb128 0x17
+ 1022 0011 00       		.byte	0
+ 1023 0012 00       		.byte	0
+ 1024 0013 02       		.uleb128 0x2
+ 1025 0014 24       		.uleb128 0x24
+ 1026 0015 00       		.byte	0
+ 1027 0016 0B       		.uleb128 0xb
+ 1028 0017 0B       		.uleb128 0xb
+ 1029 0018 3E       		.uleb128 0x3e
+ 1030 0019 0B       		.uleb128 0xb
+ 1031 001a 03       		.uleb128 0x3
+ 1032 001b 0E       		.uleb128 0xe
+ 1033 001c 00       		.byte	0
+ 1034 001d 00       		.byte	0
+ 1035 001e 03       		.uleb128 0x3
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 22
+
+
+ 1036 001f 24       		.uleb128 0x24
+ 1037 0020 00       		.byte	0
+ 1038 0021 0B       		.uleb128 0xb
+ 1039 0022 0B       		.uleb128 0xb
+ 1040 0023 3E       		.uleb128 0x3e
+ 1041 0024 0B       		.uleb128 0xb
+ 1042 0025 03       		.uleb128 0x3
+ 1043 0026 08       		.uleb128 0x8
+ 1044 0027 00       		.byte	0
+ 1045 0028 00       		.byte	0
+ 1046 0029 04       		.uleb128 0x4
+ 1047 002a 16       		.uleb128 0x16
+ 1048 002b 00       		.byte	0
+ 1049 002c 03       		.uleb128 0x3
+ 1050 002d 0E       		.uleb128 0xe
+ 1051 002e 3A       		.uleb128 0x3a
+ 1052 002f 0B       		.uleb128 0xb
+ 1053 0030 3B       		.uleb128 0x3b
+ 1054 0031 05       		.uleb128 0x5
+ 1055 0032 49       		.uleb128 0x49
+ 1056 0033 13       		.uleb128 0x13
+ 1057 0034 00       		.byte	0
+ 1058 0035 00       		.byte	0
+ 1059 0036 05       		.uleb128 0x5
+ 1060 0037 13       		.uleb128 0x13
+ 1061 0038 01       		.byte	0x1
+ 1062 0039 0B       		.uleb128 0xb
+ 1063 003a 0B       		.uleb128 0xb
+ 1064 003b 3A       		.uleb128 0x3a
+ 1065 003c 0B       		.uleb128 0xb
+ 1066 003d 3B       		.uleb128 0x3b
+ 1067 003e 0B       		.uleb128 0xb
+ 1068 003f 01       		.uleb128 0x1
+ 1069 0040 13       		.uleb128 0x13
+ 1070 0041 00       		.byte	0
+ 1071 0042 00       		.byte	0
+ 1072 0043 06       		.uleb128 0x6
+ 1073 0044 0D       		.uleb128 0xd
+ 1074 0045 00       		.byte	0
+ 1075 0046 03       		.uleb128 0x3
+ 1076 0047 0E       		.uleb128 0xe
+ 1077 0048 3A       		.uleb128 0x3a
+ 1078 0049 0B       		.uleb128 0xb
+ 1079 004a 3B       		.uleb128 0x3b
+ 1080 004b 0B       		.uleb128 0xb
+ 1081 004c 49       		.uleb128 0x49
+ 1082 004d 13       		.uleb128 0x13
+ 1083 004e 38       		.uleb128 0x38
+ 1084 004f 0B       		.uleb128 0xb
+ 1085 0050 00       		.byte	0
+ 1086 0051 00       		.byte	0
+ 1087 0052 07       		.uleb128 0x7
+ 1088 0053 16       		.uleb128 0x16
+ 1089 0054 00       		.byte	0
+ 1090 0055 03       		.uleb128 0x3
+ 1091 0056 0E       		.uleb128 0xe
+ 1092 0057 3A       		.uleb128 0x3a
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 23
+
+
+ 1093 0058 0B       		.uleb128 0xb
+ 1094 0059 3B       		.uleb128 0x3b
+ 1095 005a 0B       		.uleb128 0xb
+ 1096 005b 49       		.uleb128 0x49
+ 1097 005c 13       		.uleb128 0x13
+ 1098 005d 00       		.byte	0
+ 1099 005e 00       		.byte	0
+ 1100 005f 08       		.uleb128 0x8
+ 1101 0060 2E       		.uleb128 0x2e
+ 1102 0061 01       		.byte	0x1
+ 1103 0062 3F       		.uleb128 0x3f
+ 1104 0063 19       		.uleb128 0x19
+ 1105 0064 03       		.uleb128 0x3
+ 1106 0065 0E       		.uleb128 0xe
+ 1107 0066 3A       		.uleb128 0x3a
+ 1108 0067 0B       		.uleb128 0xb
+ 1109 0068 3B       		.uleb128 0x3b
+ 1110 0069 0B       		.uleb128 0xb
+ 1111 006a 49       		.uleb128 0x49
+ 1112 006b 13       		.uleb128 0x13
+ 1113 006c 11       		.uleb128 0x11
+ 1114 006d 01       		.uleb128 0x1
+ 1115 006e 12       		.uleb128 0x12
+ 1116 006f 06       		.uleb128 0x6
+ 1117 0070 40       		.uleb128 0x40
+ 1118 0071 18       		.uleb128 0x18
+ 1119 0072 9742     		.uleb128 0x2117
+ 1120 0074 19       		.uleb128 0x19
+ 1121 0075 01       		.uleb128 0x1
+ 1122 0076 13       		.uleb128 0x13
+ 1123 0077 00       		.byte	0
+ 1124 0078 00       		.byte	0
+ 1125 0079 09       		.uleb128 0x9
+ 1126 007a 34       		.uleb128 0x34
+ 1127 007b 00       		.byte	0
+ 1128 007c 03       		.uleb128 0x3
+ 1129 007d 0E       		.uleb128 0xe
+ 1130 007e 3A       		.uleb128 0x3a
+ 1131 007f 0B       		.uleb128 0xb
+ 1132 0080 3B       		.uleb128 0x3b
+ 1133 0081 0B       		.uleb128 0xb
+ 1134 0082 49       		.uleb128 0x49
+ 1135 0083 13       		.uleb128 0x13
+ 1136 0084 02       		.uleb128 0x2
+ 1137 0085 18       		.uleb128 0x18
+ 1138 0086 00       		.byte	0
+ 1139 0087 00       		.byte	0
+ 1140 0088 0A       		.uleb128 0xa
+ 1141 0089 34       		.uleb128 0x34
+ 1142 008a 00       		.byte	0
+ 1143 008b 03       		.uleb128 0x3
+ 1144 008c 0E       		.uleb128 0xe
+ 1145 008d 3A       		.uleb128 0x3a
+ 1146 008e 0B       		.uleb128 0xb
+ 1147 008f 3B       		.uleb128 0x3b
+ 1148 0090 0B       		.uleb128 0xb
+ 1149 0091 49       		.uleb128 0x49
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 24
+
+
+ 1150 0092 13       		.uleb128 0x13
+ 1151 0093 02       		.uleb128 0x2
+ 1152 0094 17       		.uleb128 0x17
+ 1153 0095 00       		.byte	0
+ 1154 0096 00       		.byte	0
+ 1155 0097 0B       		.uleb128 0xb
+ 1156 0098 898201   		.uleb128 0x4109
+ 1157 009b 01       		.byte	0x1
+ 1158 009c 11       		.uleb128 0x11
+ 1159 009d 01       		.uleb128 0x1
+ 1160 009e 31       		.uleb128 0x31
+ 1161 009f 13       		.uleb128 0x13
+ 1162 00a0 01       		.uleb128 0x1
+ 1163 00a1 13       		.uleb128 0x13
+ 1164 00a2 00       		.byte	0
+ 1165 00a3 00       		.byte	0
+ 1166 00a4 0C       		.uleb128 0xc
+ 1167 00a5 8A8201   		.uleb128 0x410a
+ 1168 00a8 00       		.byte	0
+ 1169 00a9 02       		.uleb128 0x2
+ 1170 00aa 18       		.uleb128 0x18
+ 1171 00ab 9142     		.uleb128 0x2111
+ 1172 00ad 18       		.uleb128 0x18
+ 1173 00ae 00       		.byte	0
+ 1174 00af 00       		.byte	0
+ 1175 00b0 0D       		.uleb128 0xd
+ 1176 00b1 898201   		.uleb128 0x4109
+ 1177 00b4 00       		.byte	0
+ 1178 00b5 11       		.uleb128 0x11
+ 1179 00b6 01       		.uleb128 0x1
+ 1180 00b7 31       		.uleb128 0x31
+ 1181 00b8 13       		.uleb128 0x13
+ 1182 00b9 00       		.byte	0
+ 1183 00ba 00       		.byte	0
+ 1184 00bb 0E       		.uleb128 0xe
+ 1185 00bc 898201   		.uleb128 0x4109
+ 1186 00bf 01       		.byte	0x1
+ 1187 00c0 11       		.uleb128 0x11
+ 1188 00c1 01       		.uleb128 0x1
+ 1189 00c2 31       		.uleb128 0x31
+ 1190 00c3 13       		.uleb128 0x13
+ 1191 00c4 00       		.byte	0
+ 1192 00c5 00       		.byte	0
+ 1193 00c6 0F       		.uleb128 0xf
+ 1194 00c7 01       		.uleb128 0x1
+ 1195 00c8 01       		.byte	0x1
+ 1196 00c9 49       		.uleb128 0x49
+ 1197 00ca 13       		.uleb128 0x13
+ 1198 00cb 01       		.uleb128 0x1
+ 1199 00cc 13       		.uleb128 0x13
+ 1200 00cd 00       		.byte	0
+ 1201 00ce 00       		.byte	0
+ 1202 00cf 10       		.uleb128 0x10
+ 1203 00d0 21       		.uleb128 0x21
+ 1204 00d1 00       		.byte	0
+ 1205 00d2 49       		.uleb128 0x49
+ 1206 00d3 13       		.uleb128 0x13
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 25
+
+
+ 1207 00d4 2F       		.uleb128 0x2f
+ 1208 00d5 0B       		.uleb128 0xb
+ 1209 00d6 00       		.byte	0
+ 1210 00d7 00       		.byte	0
+ 1211 00d8 11       		.uleb128 0x11
+ 1212 00d9 34       		.uleb128 0x34
+ 1213 00da 00       		.byte	0
+ 1214 00db 03       		.uleb128 0x3
+ 1215 00dc 0E       		.uleb128 0xe
+ 1216 00dd 3A       		.uleb128 0x3a
+ 1217 00de 0B       		.uleb128 0xb
+ 1218 00df 3B       		.uleb128 0x3b
+ 1219 00e0 0B       		.uleb128 0xb
+ 1220 00e1 49       		.uleb128 0x49
+ 1221 00e2 13       		.uleb128 0x13
+ 1222 00e3 00       		.byte	0
+ 1223 00e4 00       		.byte	0
+ 1224 00e5 12       		.uleb128 0x12
+ 1225 00e6 26       		.uleb128 0x26
+ 1226 00e7 00       		.byte	0
+ 1227 00e8 49       		.uleb128 0x49
+ 1228 00e9 13       		.uleb128 0x13
+ 1229 00ea 00       		.byte	0
+ 1230 00eb 00       		.byte	0
+ 1231 00ec 13       		.uleb128 0x13
+ 1232 00ed 34       		.uleb128 0x34
+ 1233 00ee 00       		.byte	0
+ 1234 00ef 03       		.uleb128 0x3
+ 1235 00f0 0E       		.uleb128 0xe
+ 1236 00f1 3A       		.uleb128 0x3a
+ 1237 00f2 0B       		.uleb128 0xb
+ 1238 00f3 3B       		.uleb128 0x3b
+ 1239 00f4 05       		.uleb128 0x5
+ 1240 00f5 49       		.uleb128 0x49
+ 1241 00f6 13       		.uleb128 0x13
+ 1242 00f7 3F       		.uleb128 0x3f
+ 1243 00f8 19       		.uleb128 0x19
+ 1244 00f9 3C       		.uleb128 0x3c
+ 1245 00fa 19       		.uleb128 0x19
+ 1246 00fb 00       		.byte	0
+ 1247 00fc 00       		.byte	0
+ 1248 00fd 14       		.uleb128 0x14
+ 1249 00fe 34       		.uleb128 0x34
+ 1250 00ff 00       		.byte	0
+ 1251 0100 03       		.uleb128 0x3
+ 1252 0101 0E       		.uleb128 0xe
+ 1253 0102 3A       		.uleb128 0x3a
+ 1254 0103 0B       		.uleb128 0xb
+ 1255 0104 3B       		.uleb128 0x3b
+ 1256 0105 0B       		.uleb128 0xb
+ 1257 0106 49       		.uleb128 0x49
+ 1258 0107 13       		.uleb128 0x13
+ 1259 0108 3F       		.uleb128 0x3f
+ 1260 0109 19       		.uleb128 0x19
+ 1261 010a 02       		.uleb128 0x2
+ 1262 010b 18       		.uleb128 0x18
+ 1263 010c 00       		.byte	0
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 26
+
+
+ 1264 010d 00       		.byte	0
+ 1265 010e 15       		.uleb128 0x15
+ 1266 010f 2E       		.uleb128 0x2e
+ 1267 0110 00       		.byte	0
+ 1268 0111 3F       		.uleb128 0x3f
+ 1269 0112 19       		.uleb128 0x19
+ 1270 0113 3C       		.uleb128 0x3c
+ 1271 0114 19       		.uleb128 0x19
+ 1272 0115 6E       		.uleb128 0x6e
+ 1273 0116 0E       		.uleb128 0xe
+ 1274 0117 03       		.uleb128 0x3
+ 1275 0118 0E       		.uleb128 0xe
+ 1276 0119 3A       		.uleb128 0x3a
+ 1277 011a 0B       		.uleb128 0xb
+ 1278 011b 3B       		.uleb128 0x3b
+ 1279 011c 0B       		.uleb128 0xb
+ 1280 011d 00       		.byte	0
+ 1281 011e 00       		.byte	0
+ 1282 011f 16       		.uleb128 0x16
+ 1283 0120 2E       		.uleb128 0x2e
+ 1284 0121 00       		.byte	0
+ 1285 0122 3F       		.uleb128 0x3f
+ 1286 0123 19       		.uleb128 0x19
+ 1287 0124 3C       		.uleb128 0x3c
+ 1288 0125 19       		.uleb128 0x19
+ 1289 0126 6E       		.uleb128 0x6e
+ 1290 0127 0E       		.uleb128 0xe
+ 1291 0128 03       		.uleb128 0x3
+ 1292 0129 0E       		.uleb128 0xe
+ 1293 012a 00       		.byte	0
+ 1294 012b 00       		.byte	0
+ 1295 012c 00       		.byte	0
+ 1296              		.section	.debug_loc,"",%progbits
+ 1297              	.Ldebug_loc0:
+ 1298              	.LLST0:
+ 1299 0000 2E000000 		.4byte	.LVL4
+ 1300 0004 E0000000 		.4byte	.LVL24
+ 1301 0008 0200     		.2byte	0x2
+ 1302 000a 30       		.byte	0x30
+ 1303 000b 9F       		.byte	0x9f
+ 1304 000c E0000000 		.4byte	.LVL24
+ 1305 0010 48010000 		.4byte	.LVL40
+ 1306 0014 0100     		.2byte	0x1
+ 1307 0016 54       		.byte	0x54
+ 1308 0017 00000000 		.4byte	0
+ 1309 001b 00000000 		.4byte	0
+ 1310              		.section	.debug_aranges,"",%progbits
+ 1311 0000 1C000000 		.4byte	0x1c
+ 1312 0004 0200     		.2byte	0x2
+ 1313 0006 00000000 		.4byte	.Ldebug_info0
+ 1314 000a 04       		.byte	0x4
+ 1315 000b 00       		.byte	0
+ 1316 000c 0000     		.2byte	0
+ 1317 000e 0000     		.2byte	0
+ 1318 0010 00000000 		.4byte	.LFB64
+ 1319 0014 84010000 		.4byte	.LFE64-.LFB64
+ 1320 0018 00000000 		.4byte	0
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 27
+
+
+ 1321 001c 00000000 		.4byte	0
+ 1322              		.section	.debug_ranges,"",%progbits
+ 1323              	.Ldebug_ranges0:
+ 1324 0000 00000000 		.4byte	.LFB64
+ 1325 0004 84010000 		.4byte	.LFE64
+ 1326 0008 00000000 		.4byte	0
+ 1327 000c 00000000 		.4byte	0
+ 1328              		.section	.debug_line,"",%progbits
+ 1329              	.Ldebug_line0:
+ 1330 0000 74010000 		.section	.debug_str,"MS",%progbits,1
+ 1330      02002801 
+ 1330      00000201 
+ 1330      FB0E0D00 
+ 1330      01010101 
+ 1331              	.LASF6:
+ 1332 0000 6C6F6E67 		.ascii	"long long int\000"
+ 1332      206C6F6E 
+ 1332      6720696E 
+ 1332      7400
+ 1333              	.LASF24:
+ 1334 000e 74696D65 		.ascii	"timeBuffer\000"
+ 1334      42756666 
+ 1334      657200
+ 1335              	.LASF29:
+ 1336 0019 756E6971 		.ascii	"uniqueId\000"
+ 1336      75654964 
+ 1336      00
+ 1337              	.LASF40:
+ 1338 0022 67657454 		.ascii	"getTimeDateString\000"
+ 1338      696D6544 
+ 1338      61746553 
+ 1338      7472696E 
+ 1338      6700
+ 1339              	.LASF4:
+ 1340 0034 6C6F6E67 		.ascii	"long int\000"
+ 1340      20696E74 
+ 1340      00
+ 1341              	.LASF3:
+ 1342 003d 73686F72 		.ascii	"short unsigned int\000"
+ 1342      7420756E 
+ 1342      7369676E 
+ 1342      65642069 
+ 1342      6E7400
+ 1343              	.LASF23:
+ 1344 0050 6D794C6F 		.ascii	"myLoop\000"
+ 1344      6F7000
+ 1345              	.LASF12:
+ 1346 0057 646F7562 		.ascii	"double\000"
+ 1346      6C6500
+ 1347              	.LASF19:
+ 1348 005e 73746174 		.ascii	"status\000"
+ 1348      757300
+ 1349              	.LASF21:
+ 1350 0065 75617274 		.ascii	"uartString\000"
+ 1350      53747269 
+ 1350      6E6700
+ 1351              	.LASF32:
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 28
+
+
+ 1352 0070 44494F5F 		.ascii	"DIO_0_0_Write\000"
+ 1352      305F305F 
+ 1352      57726974 
+ 1352      6500
+ 1353              	.LASF11:
+ 1354 007e 666C6F61 		.ascii	"float\000"
+ 1354      7400
+ 1355              	.LASF28:
+ 1356 0084 616C6172 		.ascii	"alarmTimeDate\000"
+ 1356      6D54696D 
+ 1356      65446174 
+ 1356      6500
+ 1357              	.LASF31:
+ 1358 0092 756E6971 		.ascii	"uniqueUniqueIdInfo\000"
+ 1358      7565556E 
+ 1358      69717565 
+ 1358      4964496E 
+ 1358      666F00
+ 1359              	.LASF17:
+ 1360 00a5 64617465 		.ascii	"date\000"
+ 1360      00
+ 1361              	.LASF41:
+ 1362 00aa 73747263 		.ascii	"strcpy\000"
+ 1362      707900
+ 1363              	.LASF20:
+ 1364 00b1 5254435F 		.ascii	"RTC_DATE_TIME\000"
+ 1364      44415445 
+ 1364      5F54494D 
+ 1364      4500
+ 1365              	.LASF47:
+ 1366 00bf 43795379 		.ascii	"CySysWatchdogFeed\000"
+ 1366      73576174 
+ 1366      6368646F 
+ 1366      67466565 
+ 1366      6400
+ 1367              	.LASF44:
+ 1368 00d1 43795379 		.ascii	"CySysClkWcoStart\000"
+ 1368      73436C6B 
+ 1368      57636F53 
+ 1368      74617274 
+ 1368      00
+ 1369              	.LASF30:
+ 1370 00e2 636F6D6D 		.ascii	"commonUniqueIdInfo\000"
+ 1370      6F6E556E 
+ 1370      69717565 
+ 1370      4964496E 
+ 1370      666F00
+ 1371              	.LASF1:
+ 1372 00f5 756E7369 		.ascii	"unsigned char\000"
+ 1372      676E6564 
+ 1372      20636861 
+ 1372      7200
+ 1373              	.LASF38:
+ 1374 0103 6D656D73 		.ascii	"memset\000"
+ 1374      657400
+ 1375              	.LASF5:
+ 1376 010a 6C6F6E67 		.ascii	"long unsigned int\000"
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 29
+
+
+ 1376      20756E73 
+ 1376      69676E65 
+ 1376      6420696E 
+ 1376      7400
+ 1377              	.LASF36:
+ 1378 011c 73657454 		.ascii	"setTimeOfBuild\000"
+ 1378      696D654F 
+ 1378      66427569 
+ 1378      6C6400
+ 1379              	.LASF53:
+ 1380 012b 6D61696E 		.ascii	"main\000"
+ 1380      00
+ 1381              	.LASF22:
+ 1382 0130 636F6D70 		.ascii	"compileTimeString\000"
+ 1382      696C6554 
+ 1382      696D6553 
+ 1382      7472696E 
+ 1382      6700
+ 1383              	.LASF9:
+ 1384 0142 75696E74 		.ascii	"uint16\000"
+ 1384      313600
+ 1385              	.LASF10:
+ 1386 0149 75696E74 		.ascii	"uint32\000"
+ 1386      333200
+ 1387              	.LASF33:
+ 1388 0150 44494F5F 		.ascii	"DIO_0_3_Write\000"
+ 1388      305F335F 
+ 1388      57726974 
+ 1388      6500
+ 1389              	.LASF43:
+ 1390 015e 67657441 		.ascii	"getALL_WDT_Values\000"
+ 1390      4C4C5F57 
+ 1390      44545F56 
+ 1390      616C7565 
+ 1390      7300
+ 1391              	.LASF8:
+ 1392 0170 756E7369 		.ascii	"unsigned int\000"
+ 1392      676E6564 
+ 1392      20696E74 
+ 1392      00
+ 1393              	.LASF45:
+ 1394 017d 696E6974 		.ascii	"initWDT0\000"
+ 1394      57445430 
+ 1394      00
+ 1395              	.LASF7:
+ 1396 0186 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1396      206C6F6E 
+ 1396      6720756E 
+ 1396      7369676E 
+ 1396      65642069 
+ 1397              	.LASF18:
+ 1398 019d 6461794F 		.ascii	"dayOfWeek\000"
+ 1398      66576565 
+ 1398      6B00
+ 1399              	.LASF16:
+ 1400 01a7 74696D65 		.ascii	"time\000"
+ 1400      00
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 30
+
+
+ 1401              	.LASF50:
+ 1402 01ac 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1402      43313120 
+ 1402      352E342E 
+ 1402      31203230 
+ 1402      31363036 
+ 1403 01df 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 1403      20726576 
+ 1403      6973696F 
+ 1403      6E203233 
+ 1403      37373135 
+ 1404 0212 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1404      66756E63 
+ 1404      74696F6E 
+ 1404      2D736563 
+ 1404      74696F6E 
+ 1405              	.LASF46:
+ 1406 023a 44494F5F 		.ascii	"DIO_0_0_Read\000"
+ 1406      305F305F 
+ 1406      52656164 
+ 1406      00
+ 1407              	.LASF15:
+ 1408 0247 73697A65 		.ascii	"sizetype\000"
+ 1408      74797065 
+ 1408      00
+ 1409              	.LASF34:
+ 1410 0250 696E6974 		.ascii	"initRTC\000"
+ 1410      52544300 
+ 1411              	.LASF51:
+ 1412 0258 6D61696E 		.ascii	"main.c\000"
+ 1412      2E6300
+ 1413              	.LASF13:
+ 1414 025f 63686172 		.ascii	"char\000"
+ 1414      00
+ 1415              	.LASF52:
+ 1416 0264 563A5C44 		.ascii	"V:\\Dynaris-V\\Psoc-Sleep_Docks\\2020-10-14_Testing"
+ 1416      796E6172 
+ 1416      69732D56 
+ 1416      5C50736F 
+ 1416      632D536C 
+ 1417 0294 5C525443 		.ascii	"\\RTC_P4_WDT_Example_V1.00.04-Fork1\\RTC_P4_WDT_Exa"
+ 1417      5F50345F 
+ 1417      5744545F 
+ 1417      4578616D 
+ 1417      706C655F 
+ 1418 02c5 6D706C65 		.ascii	"mple_V1.00.04-Fork1.cydsn\000"
+ 1418      5F56312E 
+ 1418      30302E30 
+ 1418      342D466F 
+ 1418      726B312E 
+ 1419              	.LASF39:
+ 1420 02df 6D656D63 		.ascii	"memcpy\000"
+ 1420      707900
+ 1421              	.LASF2:
+ 1422 02e6 73686F72 		.ascii	"short int\000"
+ 1422      7420696E 
+ 1422      7400
+ARM GAS  C:\Users\ben\AppData\Local\Temp\cchUHZQ4.s 			page 31
+
+
+ 1423              	.LASF35:
+ 1424 02f0 73657452 		.ascii	"setRTCUpdate\000"
+ 1424      54435570 
+ 1424      64617465 
+ 1424      00
+ 1425              	.LASF25:
+ 1426 02fd 64617465 		.ascii	"dateBuffer\000"
+ 1426      42756666 
+ 1426      657200
+ 1427              	.LASF48:
+ 1428 0308 43795379 		.ascii	"CySysPmDeepSleep\000"
+ 1428      73506D44 
+ 1428      65657053 
+ 1428      6C656570 
+ 1428      00
+ 1429              	.LASF42:
+ 1430 0319 7072696E 		.ascii	"printDIEinfo\000"
+ 1430      74444945 
+ 1430      696E666F 
+ 1430      00
+ 1431              	.LASF27:
+ 1432 0326 5254435F 		.ascii	"RTC_daysBeforeMonthTbl\000"
+ 1432      64617973 
+ 1432      4265666F 
+ 1432      72654D6F 
+ 1432      6E746854 
+ 1433              	.LASF14:
+ 1434 033d 6C6F6E67 		.ascii	"long double\000"
+ 1434      20646F75 
+ 1434      626C6500 
+ 1435              	.LASF0:
+ 1436 0349 7369676E 		.ascii	"signed char\000"
+ 1436      65642063 
+ 1436      68617200 
+ 1437              	.LASF37:
+ 1438 0355 55415254 		.ascii	"UART_PutString\000"
+ 1438      5F507574 
+ 1438      53747269 
+ 1438      6E6700
+ 1439              	.LASF49:
+ 1440 0364 73707269 		.ascii	"sprintf\000"
+ 1440      6E746600 
+ 1441              	.LASF26:
+ 1442 036c 74696D65 		.ascii	"timeDateBuffer\000"
+ 1442      44617465 
+ 1442      42756666 
+ 1442      657200
+ 1443              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,0 +1,93 @@
+
+
+
+
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1
+Compile Time: 2020-10-27_08-54-24
+Initialization
+ Wafer=004 XPos=018 YPos=031
+ RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  0 .
+WdtGetEnabledStatusValue0:  0 .
+WdtGetClearOnMatchValue0:  0 .
+WdtGetMatchValue0:  0 .
+WdtGetCountValue0:  0 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18848 .
+WdtGetInterruptCallbackValue2:  4301 .
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  1 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  0 .
+WdtGetMatchValue0:  65534 .
+WdtGetCountValue0:  12173 .
+WdtGetInterruptCallbackValue0:  1137 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  38894 .
+WdtGetInterruptCallbackValue2:  4301 .
+
+Entering Main Loop
+
+
+2020-10-27_08-54-27
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  1 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  65534 .
+WdtGetCountValue0:  56962 .
+WdtGetInterruptCallbackValue0:  1201 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  149226 .
+WdtGetInterruptCallbackValue2:  4301 .
+2020-10-27_09-01-04
+Program finished running:  401 .
+2020-10-27_09-01-05_2020-10-27_08-54-24
+

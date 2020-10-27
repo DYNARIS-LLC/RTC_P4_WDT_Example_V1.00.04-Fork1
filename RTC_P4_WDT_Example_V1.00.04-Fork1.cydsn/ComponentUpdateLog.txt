@@ -1,0 +1,7 @@
+Last Modified Date & Time: 10/27/2020 05:23:20
+
+RTC_P4_WDT_Example_V1.00.03-Fork1: RTC_P4_WDT_Example_V1.00.03-Fork1.cydwr
+	cy_boot [v5.60] to [v6.0]
+	LIN_Dynamic [v4.0] to [v5.0]
+
+

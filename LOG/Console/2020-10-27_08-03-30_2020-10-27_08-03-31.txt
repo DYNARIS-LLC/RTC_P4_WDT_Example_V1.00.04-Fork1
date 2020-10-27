@@ -1,0 +1,311 @@
+
+
+
+04:28:59 | 03/22/2014 | No alarm014 | No alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+1972-11-24_04-48-41
+Entering Main Loop
+
+
+1972-11-24_04-49-10_No-alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+1972-11-24_04-51-03
+Entering Main Loop
+
+
+1972-11-24_04-57-14_No-alarm
+
+
+
+ RTC_P4_WDT_Example01
+
+
+2020-10-26_23-51-47
+
+
+ RTC_P4_WDT_Example01
+
+
+04:01:15 | 03/22/2014 | No alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+1972-11-09_04-58-49
+Entering Main Loop
+
+
+1972-11-09_05-12-44_No-alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+1972-11-24_00-00-37
+Entering Main Loop
+
+
+1972-11-24_00-10-00_No-alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+1972-11-24_05-21-56
+Entering Main Loop
+
+
+1972-11-24_05-30-58_No-alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_05-29-53
+Entering Main Loop
+
+
+2020-10-27_05-30-27_No-alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_05-29-53
+Entering Main Loop
+
+
+2020-10-27_05-30-20_No-alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_05-32-12
+Entering Main Loop
+
+
+2020-10-27_05-36-06_No-alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_05-38-08
+Entering Main Loop
+
+
+2021-10-01_21-40-25_No-alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-04-20
+Entering Main Loop
+
+
+2020-11-28_08-51-06_No-alarmm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-04-19
+Entering Main Loop
+
+
+2020-10-27_06-25-48_No-alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-15-02
+Entering Main Loop
+
+
+2020-10-27_06-21-37_No-alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-18-29
+Entering Main Loop
+
+
+2020-10-27_06-22-54_No-alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-21-32
+Entering Main Loop
+
+
+2020-10-27_06-34-46_No-alarm
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-30-23
+Entering Main Loop
+
+
+2020-10-27_06-36-49_
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-34-39
+Entering Main Loop
+
+
+2020-10-27_06-35-31
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-34-39
+Entering Main Loop
+
+
+2020-10-27_06-37-50
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-37-28
+Entering Main Loop
+
+
+2020-10-27_06-51-05
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-46-48
+Entering Main Loop
+
+
+2020-10-27_06-46-48
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-48-01
+Entering Main Loop
+
+
+2020-10-27_06-48-35
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-49-22
+Entering Main Loop
+
+
+2020-10-27_06-50-38
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-52-02
+Entering Main Loop
+
+
+2020-10-27_06-59-25
+
+
+
+ RTC_P4_WDT_Example_V1.00.03-Fork1
+2020-10-27_06-57-06
+Entering Main Loop
+
+
+2020-10-27_08-36-43
+
+
+
+ RTC_P4_WDT_Example_V1.00.04-Fork1
+Compile Time: 1970-01-01_00-00-00
+Initialization
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  0 .
+WdtGetEnabledStatusValue0:  0 .
+WdtGetClearOnMatchValue0:  0 .
+WdtGetMatchValue0:  0 .
+WdtGetCountValue0:  0 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18485 .
+WdtGetInterruptCallbackValue2:  0 .
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  1 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  0 .
+WdtGetMatchValue0:  65534 .
+WdtGetCountValue0:  12173 .
+WdtGetInterruptCallbackValue0:  981 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  38518 .
+WdtGetInterruptCallbackValue2:  0 .
+
+Entering Main Loop
+
+
+2020-10-27_08-03-30
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  1 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  65534 .
+WdtGetCountValue0:  57335 .
+WdtGetInterruptCallbackValue0:  1045 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  149227 .
+WdtGetInterruptCallbackValue2:  4033 .
+2020-10-27_08-03-31
+
+2020-10-27_08-03-30_2020-10-27_08-03-31

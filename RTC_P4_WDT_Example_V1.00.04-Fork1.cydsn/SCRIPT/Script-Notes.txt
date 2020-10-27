@@ -1,0 +1,612 @@
+
+
+
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\SCRIPT
+
+PreBuildScript.ps1
+
+
+cmd.exe /c "V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.bat"
+
+
+cmd.exe /c START /WAIT "V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.bat"
+
+cmd.exe /c ".\SCRIPT\PreBuildScript.bat"
+
+
+START /WAIT 
+
+"cmd.exe /c START /WAIT \"V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.bat\""
+
+UTF-16 (LE) Byte order mark detected
+
+This works
+"cmd.exe /c \"V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.bat\""
+This works
+
+
+PowerShell.exe -ExecutionPolicy Bypass -Command "& "".\SCRIPT\PreBuildScript.ps1""
+
+
+PowerShell.exe -Command "& ""./PreBuildScript.ps1""" | out-null
+
+
+PowerShell.exe -ExecutionPolicy Bypass -Command "& ".\SCRIPT\PreBuildScript.ps1""| out-null
+
+| out-null
+
+cmd.exe /c "V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\SCRIPT\PreBuildScript.bat"
+
+
+
+https://superuser.com/questions/1107084/understanding-executing-powershell-inside-batch-with-parameters
+
+
+@ECHO ON
+
+SET arg1=%~1
+SET arg2=%~2
+SET arg3=%~3
+SET arg4=%~4
+
+SET PSScript=C:\Users\User\Desktop\Test.ps1
+
+SET PowerShellDir=C:\Windows\System32\WindowsPowerShell\v1.0
+CD /D "%PowerShellDir%"
+Powershell -ExecutionPolicy Bypass -Command "& '%PSScript%' '%arg1%' '%arg2%' '%arg3%' '%arg4%'"
+EXIT /B
+
+
+https://stackoverflow.com/questions/2035193/how-to-run-a-powershell-script
+
+powershell -noexit "& ""C:\my_path\yada_yada\run_import_script.ps1""" (enter)
+
+
+
+
+https://poshoholic.com/2007/09/27/invoking-a-powershell-script-from-cmdexe-or-start-run/
+
+
+
+https://stackoverflow.com/questions/19335004/how-to-run-a-powershell-script-from-a-batch-file
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './ps.ps1'"
+
+
+
+
+
+https://www.tutorialspoint.com/batch_script/batch_script_files.htm
+
+
+https://www.advancedinstaller.com/user-guide/qa-launch-batch-file.html
+
+
+
+
+https://www.educba.com/powershell-get-date/
+$day = (get-date).day
+$dayofweek = (get-date).dayofweek
+$dayofyear = (get-date).dayofyear
+$hour = (get-date).hour
+$ms = (get-date).millisecond
+$minute = (get-date).minute
+$month = (get-date).month
+$second = (get-date).second
+$time = (get-date).timeofday
+$year = (get-date).year
+
+
+
+
+
+
+https://www.google.com/search?client=firefox-b-1-d&ei=MuGXX67qO4LXtAby57hw&q=powershell+encoding+types&oq=powershell+enco&gs_lcp=CgZwc3ktYWIQARgHMgUIABDJAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoHCAAQRxCwAzoECAAQQzoFCAAQsQM6BggAEAoQQzoLCC4QsQMQxwEQowI6DgguELEDEIMBEMcBEKMCOgUIABCRAjoHCAAQsQMQQzoHCAAQyQMQQzoICAAQsQMQgwE6CAgAEMkDEJECUNmgJVi1jSZgx7AmaANwAHgAgAF2iAHoCZIBBDE2LjGYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab
+https://docs.microsoft.com/en-us/powershell/scripting/dev-cross-plat/vscode/understanding-file-encoding?view=powershell-7
+https://ss64.com/ps/set-content.html
+
+https://www.google.com/search?biw=1152&bih=1906&ei=oc2XX4_CMo6rtQb_tpTACA&q=cmd+batch+pass+filepath+to+powershell&oq=cmd+batch+pass+filepath+to+powershell&gs_lcp=CgZwc3ktYWIQAzIHCCEQChCgAToHCAAQRxCwAzoHCAAQyQMQQzoECAAQQzoCCAA6BQgAEMkDOgYIABAWEB46CAgAEBYQChAeOgkIABDJAxAWEB46CAgAEAgQDRAeOgsIABDJAxAIEA0QHjoFCCEQqwI6BAghEAo6CAghEBYQHRAeOgcIIRAKEKsCUIbsOViS4zpg9-Q6aAJwAHgAgAHiAYgBthqSAQcyMS4xMy4xmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab&ved=0ahUKEwjPlsqrodTsAhWOVc0KHX8bBYgQ4dUDCAw&uact=5
+https://stackoverflow.com/questions/32339435/how-to-pass-path-with-spaces-to-script/32339982
+https://stackoverflow.com/questions/11857777/passing-path-parameter-into-power-shell-script-using-batch-file
+https://www.tutorialspoint.com/batch_script/batch_script_variables.htm
+https://serverfault.com/questions/255291/get-directory-containing-the-currently-executed-batch-script/255294
+https://stackoverflow.com/questions/607670/windows-shell-command-to-get-the-full-path-to-the-current-directory
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-location?view=powershell-7
+
+
+
+--------------- Build Failed: 10/27/2020 02:13:42 ---------------
+--------------- Build Started: 10/27/2020 02:25:42 Project: RTC_P4_WDT_Example_V1.00.03-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+cmd.exe /c V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\SCRIPT\PreBuildScript.bat
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>SET var=V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>ECHO V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn>PowerShell.exe -ExecutionPolicy Bypass -Command "& ""V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\SCRIPT\PreBuildScript.ps1"""
+The compile step is up to date, no work needs to be done.
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.03-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.03-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+.\CortexM0\ARM_GCC_541\Debug\MyTime.o:(.bss+0x0): multiple definition of `alarmFlag'
+.\CortexM0\ARM_GCC_541\Debug\main.o:(.bss+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+
+
+
+
+"[InternetShortcut] URL=https://www.fastcompany.com/90435619/27-apps-to-delete-in-2020" | Out-File "E:\Dropbox\1001-to_read\$((Get-Date).ToString('yyyy-MM-dd_HH-mm-ss-ff'))_27-apps-to-delete-in-2020.url"
+
+$logTime = "$((Get-Date).ToString('yyyy-MM-dd_HH-mm-ss-ff'))"
+$logUser = "$ENV:UserName"
+$logURL = $logTime + "_" + $logUser
+#echo $logURL
+$logFile = "E:\Dropbox\1001-Log\USER\logon\$logURL-logoff.txt"
+
+$env:UserName > $logFile
+$env:UserDomain >> $logFile
+$env:ComputerName >> $logFile
+$logFile >> $logFile
+
+
+
+
+
+
+
+
+PS V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT> .\PreBuildScript.ps1
+Method invocation failed because [System.Management.Automation.PathInfo] does not contain a method named 'op_Addition'.
+At V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT\PreBuildScript.ps1:11 char:1
++ $logFile =  $relativeDIR+"\SCRIPT\"+$logURL+"-build.h"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : InvalidOperation: (op_Addition:String) [], RuntimeException
++ FullyQualifiedErrorId : MethodNotFound
+
+PS V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.03-Fork1\RTC_P4_WDT_Example_V1.00.03-Fork1.cydsn\SCRIPT>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get-MailboxStatistics -Database data01 |select displayname,databasename,itemcount,totalitemsize | export-csv -delimiter "`t" -path theOutFile.txt
+
+
+
+
+
+cd E:\mid-HD-Movies
+
+cd E:\movies
+
+$s1 = '<hr></hr>
+<p><a href="" target="_blank">'
+
+$s2 = '</a></p>'
+
+
+
+
+
+
+dir | $s1+select name+$s2 | export-csv -delimiter "`t" -path theOutFile.csv
+
+
+
+dir |select name | export-csv -delimiter "`t" -path theOutFile.csv
+
+
+dir |select name |
+
+
+Get-ChildItem -Recurse
+
+Get-ChildItem | $s1 + Select-Object FullName 
+
+
+$s3 = Get-ChildItem -Name
+
+
+foreach ($file in get-ChildItem -Name) {
+    $s4 = ($s1 + $file.name + $s2)
+}
+
+
+
+Get-ChildItem $s1 -Name
+
+Get-ChildItem -Name  | export-csv -delimiter "`t" -path theOutFile.csv
+
+$s4 = ($s1 + $s3 + $s2)
+
+
+Write-Host $s4
+
+$s4 | export-csv -delimiter "`t" -path theOutFile.csv
+
+$s4 | export-csv -delimiter "`t" -path theOutFile.csv
+
+
+
+
+
+
+
+
+$s1 = '<hr></hr><p><a href="" target="_blank">'
+
+$s2 = '</a></p>'
+
+#$A1 = @()
+
+$A1 = foreach ($file in get-ChildItem -Name) {
+    $s4 = ($s1 + $file + $s2)
+    #addToArray $4
+    #$A1 += $s4
+    $s4
+    #$A1.Add("$s4")
+ #   Write-Host $s4
+}
+
+#$( foreach ($file in get-ChildItem -Name) {
+#    $s4 = ($s1 + $file + $s2)
+    #addToArray $4
+    #$A1 += $s4
+
+    #$A1.Add("$s4")
+#    Write-Host $s4
+#})| export-csv -delimiter "`t" -path theOutFile.csv
+
+#Write-Host $A1
+
+#$A1 | export-csv -delimiter "`t" -path theOutFile.csv
+#
+$A1 | Out-file dirlist-2.txt -Append
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get PowerShell Version
+
+Get-Host | Select-Object Version
+$PSVersionTable.PSVersion
+https://stackoverflow.com/questions/1825585/determine-installed-powershell-version
+
+dir -a > "DIR_$((Get-Date).ToString('yyyy-MM-dd_HH-mm-ss-ff'))_dir.txt"
+
+
+
+2019-05-25_05-43-13
+
+
+
+
+"Ben_$((Get-Date).ToString('yyyy-MM-dd_HH-mm-ss-ff'))" | clip
+Ben_2020-01-29_20-28-01-54
+
+
+Ben_2020-01-29_20-26-38-08
+
+
+"Ben_Loop-Me-In_USER-gmail_$((Get-Date).ToString('yyyy-MM-dd_HH-mm-ss-ff'))" | clip
+
+
+"$((Get-Date).ToString('yyyy-MM-dd_HH-mm-ss-ff'))" | clip
+
+"$((Get-Date).ToString('yyyy-MM-dd_HH-mm-ss-ff'))" | clip
+"$((Get-Date).ToString('yyyy-MM-dd_HH-mm-ss-ff'))" | clip
+
+Get-DirStats
+
+
+cd M:\DATA
+
+M:\DATA\Get-DirStats.ps1 -Path M:\DATA -Files -Size
+
+M:\DATA\Get-DirStats.ps1 -Path M:\DATA -Only -FormatNumbers -Total
+
+
+https://gallery.technet.microsoft.com/scriptcenter/Outputs-directory-size-964d07ff
+
+
+
+
+
+Windows Management Framework 5.1 
+
+https://www.microsoft.com/en-us/download/details.aspx?id=54616
+
+
+
+
+windows permission
+
+
+
+CD C:\
+
+
+dir -Force > L:\1004_Backup\USER\$((Get-Date).ToString('yyyy-MM-dd_HH-mm-ss-ff'))_DIR.txt
+
+
+robocopy C:\ L:\1004_Backup\USER /E /XC /XN /XO /XD "`$Recycle.Bin" "Config.Msi" "hiberfil" "pagefile" "12d4096151f8d9dd4619ba" "Application Data" "Program Files" "Program Files (x86)" "Windows" "msdia80.dll" > "L:\1004_Backup\USER\$((Get-Date).ToString('yyyy-MM-dd_H-mm-ss-ff'))_Backup-USER.txt"
+^^^^DONT USE!!!!!^^^^^^^
+
+
+L:\1004_Backup\USER
+
+
+"12d4096151f8d9dd4619ba"
+
+
+"12d4096151f8d9dd4619ba" "Program Files" "Program Files (x86)" "Windows" "msdia80.dll"
+
+robocopy /? > "L:\1004_Backup\USER\$((Get-Date).ToString('yyyy-MM-dd_HH-mm-ss-ff'))_Backup-USER.txt"
+
+
+
+/S /E /XC /XN /XO /XD
+
+
+/E /XC /XN /XO /XD
+
+
+https://stackoverflow.com/questions/4228807/copy-files-without-overwrite
+
+
+
+
+
+
+robocopy C:\ L:\1004_Backup\USER\ /E /XC /XN /XO /XF "hiberfil.sys" "NTUSER.DAT" "ntuser.dat.LOG1" "ntuser.dat.LOG2" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000" "pagefile.sys" "NTUSER.DAT" "msdia80.dll" /XD "`$Recycle.Bin" "System Volume Information" "System Recovery" "AppData" "Temp" "Teck" "Recovery" "ProgramData" "Drivers" "Documents and Settings" "Application Data" "12d4096151f8d9dd4619ba" "Program Files" "Program Files (x86)" "Windows" "All Users" "Config.Msi" > "L:\1004_Backup\USER\$((Get-Date).ToString('yyyy-MM-dd_HH-mm-ss-ff'))_Backup-USER.txt"
+
+
+
+
+All Users
+
+
+
+C:\Documents and Settings\All Users\Microsoft\Crypto\PCPKSP\
+
+Drivers
+
+https://pureinfotech.com/exclude-files-folders-robocopy-windows-10/
+
+
+https://adamtheautomator.com/robocopy-the-ultimate/
+
+
+
+
+
+
+
+C:\System Recovery\
+	  New Dir         13	C:\System Volume Information\
+
+
+cd C:\Users\Anhelo3\ 
+dir -Force > L:\1004_Backup\USER\$((Get-Date).ToString('yyyy-MM-dd_HH-mm-ss-ff'))_DIR-USER-PC.txt
+
+
+
+
+"NTUSER.DAT" "ntuser.dat.LOG1" "ntuser.dat.LOG2" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000" "NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000"
+
+
+                                             000001.regtrans-ms   
+                                                     
+"NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000"
+                                             000002.regtrans-ms                                                        
+ntuser.ini                                                                
+-a---         6/14/2019  12:02 PM          0 Sti_Trace.log   
+
+
+
+
+
+
+
+
+https://help.dropbox.com/installs-integrations/sync-uploads/stuck-syncing
+
+icacls "D:\Dropbox" /grant "%USERNAME%":(F) /T
+
+icacls "C:\Dropbox" /grant "%USERNAME%":(F) /T
+
+
+icacls "E:\Dropbox" /grant "%USERNAME%":(F) /T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Get-DirStats.ps1 
+# Written by Bill Stewart 
+# Outputs file system directory statistics. 
+ 
+#requires -version 2 
+ 
+<# 
+.SYNOPSIS 
+Outputs file system directory statistics. 
+ 
+.DESCRIPTION 
+Outputs file system directory statistics (number of files and the sum of all file sizes) for one or more directories. 
+ 
+.PARAMETER Path 
+Specifies a path to one or more file system directories. Wildcards are not permitted. The default path is the current directory (.). 
+ 
+.PARAMETER LiteralPath 
+Specifies a path to one or more file system directories. Unlike Path, the value of LiteralPath is used exactly as it is typed. 
+ 
+.PARAMETER Only 
+Outputs statistics for a directory but not any of its subdirectories. 
+ 
+.PARAMETER Every 
+Outputs statistics for every directory in the specified path instead of only the first level of directories. 
+ 
+.PARAMETER FormatNumbers 
+Formats numbers in the output object to include thousands separators. 
+ 
+.PARAMETER Total 
+Outputs a summary object after all other output that sums all statistics. 
+#> 
+ 
+[CmdletBinding(DefaultParameterSetName="Path")] 
+param( 
+  [parameter(Position=0,Mandatory=$false,ParameterSetName="Path",ValueFromPipeline=$true)] 
+    $Path=(get-location).Path, 
+  [parameter(Position=0,Mandatory=$true,ParameterSetName="LiteralPath")] 
+    [String[]] $LiteralPath, 
+    [Switch] $Only, 
+    [Switch] $Every, 
+    [Switch] $FormatNumbers, 
+    [Switch] $Total 
+) 
+ 
+begin { 
+  $ParamSetName = $PSCmdlet.ParameterSetName 
+  if ( $ParamSetName -eq "Path" ) { 
+    $PipelineInput = ( -not $PSBoundParameters.ContainsKey("Path") ) -and ( -not $Path ) 
+  } 
+  elseif ( $ParamSetName -eq "LiteralPath" ) { 
+    $PipelineInput = $false 
+  } 
+ 
+  # Script-level variables used with -Total. 
+  [UInt64] $script:totalcount = 0 
+  [UInt64] $script:totalbytes = 0 
+ 
+  # Returns a [System.IO.DirectoryInfo] object if it exists. 
+  function Get-Directory { 
+    param( $item ) 
+ 
+    if ( $ParamSetName -eq "Path" ) { 
+      if ( Test-Path -Path $item -PathType Container ) { 
+        $item = Get-Item -Path $item -Force 
+      } 
+    } 
+    elseif ( $ParamSetName -eq "LiteralPath" ) { 
+      if ( Test-Path -LiteralPath $item -PathType Container ) { 
+        $item = Get-Item -LiteralPath $item -Force 
+      } 
+    } 
+    if ( $item -and ($item -is [System.IO.DirectoryInfo]) ) { 
+      return $item 
+    } 
+  } 
+ 
+  # Filter that outputs the custom object with formatted numbers. 
+  function Format-Output { 
+    process { 
+      $_ | Select-Object Path, 
+        @{Name="Files"; Expression={"{0:N0}" -f $_.Files}}, 
+        @{Name="Size"; Expression={"{0:N0}" -f $_.Size}} 
+    } 
+  } 
+ 
+  # Outputs directory statistics for the specified directory. With -recurse, 
+  # the function includes files in all subdirectories of the specified 
+  # directory. With -format, numbers in the output objects are formatted with 
+  # the Format-Output filter. 
+  function Get-DirectoryStats { 
+    param( $directory, $recurse, $format ) 
+ 
+    Write-Progress -Activity "Get-DirStats.ps1" -Status "Reading '$($directory.FullName)'" 
+    $files = $directory | Get-ChildItem -Force -Recurse:$recurse | Where-Object { -not $_.PSIsContainer } 
+    if ( $files ) { 
+      Write-Progress -Activity "Get-DirStats.ps1" -Status "Calculating '$($directory.FullName)'" 
+      $output = $files | Measure-Object -Sum -Property Length | Select-Object ` 
+        @{Name="Path"; Expression={$directory.FullName}}, 
+        @{Name="Files"; Expression={$_.Count; $script:totalcount += $_.Count}}, 
+        @{Name="Size"; Expression={$_.Sum; $script:totalbytes += $_.Sum}} 
+    } 
+    else { 
+      $output = "" | Select-Object ` 
+        @{Name="Path"; Expression={$directory.FullName}}, 
+        @{Name="Files"; Expression={0}}, 
+        @{Name="Size"; Expression={0}} 
+    } 
+    if ( -not $format ) { $output } else { $output | Format-Output } 
+  } 
+} 
+ 
+process { 
+  # Get the item to process, no matter whether the input comes from the 
+  # pipeline or not. 
+  if ( $PipelineInput ) { 
+    $item = $_ 
+  } 
+  else { 
+    if ( $ParamSetName -eq "Path" ) { 
+      $item = $Path 
+    } 
+    elseif ( $ParamSetName -eq "LiteralPath" ) { 
+      $item = $LiteralPath 
+    } 
+  } 
+ 
+  # Write an error if the item is not a directory in the file system. 
+  $directory = Get-Directory -item $item 
+  if ( -not $directory ) { 
+    Write-Error -Message "Path '$item' is not a directory in the file system." -Category InvalidType 
+    return 
+  } 
+ 
+  # Get the statistics for the first-level directory. 
+  Get-DirectoryStats -directory $directory -recurse:$false -format:$FormatNumbers 
+  # -Only means no further processing past the first-level directory. 
+  if ( $Only ) { return } 
+ 
+  # Get the subdirectories of the first-level directory and get the statistics 
+  # for each of them. 
+  $directory | Get-ChildItem -Force -Recurse:$Every | 
+    Where-Object { $_.PSIsContainer } | ForEach-Object { 
+      Get-DirectoryStats -directory $_ -recurse:(-not $Every) -format:$FormatNumbers 
+    } 
+} 
+ 
+end { 
+  # If -Total specified, output summary object. 
+  if ( $Total ) { 
+    $output = "" | Select-Object ` 
+      @{Name="Path"; Expression={"<Total>"}}, 
+      @{Name="Files"; Expression={$script:totalcount}}, 
+      @{Name="Size"; Expression={$script:totalbytes}} 
+    if ( -not $FormatNumbers ) { $output } else { $output | Format-Output } 
+  } 
+}
