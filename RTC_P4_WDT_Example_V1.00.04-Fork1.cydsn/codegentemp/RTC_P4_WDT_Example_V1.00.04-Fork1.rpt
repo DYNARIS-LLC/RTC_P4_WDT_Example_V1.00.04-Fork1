@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 0s.342ms
+Loading plugins phase: Elapsed time ==> 0s.548ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\RTC_P4_WDT_Example_V1.00.04-Fork1.cyprj -d CY8C4247AZI-M485 -s V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\Generated_Source\PSoC4 -- -yv2  -ygs -o2 -v3 -.fftcfgtype=LE
 </CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 0s.860ms
+Elaboration phase: Elapsed time ==> 0s.820ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.046ms
+HDL generation phase: Elapsed time ==> 0s.042ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -41,7 +41,7 @@ Options  :    -yv2 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=V:\Dynaris-V\Psoc-S
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Tue Oct 27 09:14:53 2020
+Tue Oct 27 11:19:33 2020
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 RTC_P4_WDT_Example_V1.00.04-Fork1.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Tue Oct 27 09:14:53 2020
+Tue Oct 27 11:19:33 2020
 
 
 vpp:  No errors.
@@ -80,7 +80,7 @@ Options  :    -yv2 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=V:\Dynaris-V\Psoc-S
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Tue Oct 27 09:14:53 2020
+Tue Oct 27 11:19:33 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -104,7 +104,7 @@ Options  :    -yv2 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=V:\Dynaris-V\Psoc-S
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Tue Oct 27 09:14:53 2020
+Tue Oct 27 11:19:33 2020
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -164,14 +164,14 @@ CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\wa
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\warp\bin\warp.exe
 Warp Arguments : -yv2  -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\RTC_P4_WDT_Example_V1.00.04-Fork1.cyprj -dcpsoc3 RTC_P4_WDT_Example_V1.00.04-Fork1.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 0s.505ms
+Warp synthesis phase: Elapsed time ==> 0s.460ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.3.0.1445, Family: PSoC3, Started at: Tuesday, 27 October 2020 09:14:54
+cyp3fit: V4.3.0.1445, Family: PSoC3, Started at: Tuesday, 27 October 2020 11:19:33
 Options: -yv2  -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\RTC_P4_WDT_Example_V1.00.04-Fork1.cyprj -d CY8C4247AZI-M485 RTC_P4_WDT_Example_V1.00.04-Fork1.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.009ms
+Design parsing phase: Elapsed time ==> 0s.008ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -446,8 +446,8 @@ DAC                           :      :      :      :
   7-bit IDAC                  :    0 :    2 :    2 :  0.00 %
   8-bit IDAC                  :    0 :    2 :    2 :  0.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.019ms
-Tech Mapping phase: Elapsed time ==> 0s.051ms
+Technology Mapping: Elapsed time ==> 0s.016ms
+Tech Mapping phase: Elapsed time ==> 0s.042ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 <CYPRESSTAG name="FFB & IO Pre Placement">
@@ -465,15 +465,15 @@ ClockGenBlock                       : CLK_GEN_[FFB(CLK_GEN,0)]
 </CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Real Analog Placement">
-Elapsed time ==> 0.4575909s
+Elapsed time ==> 0.4404290s
 </CYPRESSTAG>
-Analog Placement phase: Elapsed time ==> 0s.702ms
+Analog Placement phase: Elapsed time ==> 0s.670ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 <CYPRESSTAG name="Analog Routing">
-Route success=True, Iterations=1 Elapsed=0.0010583 secs
+Route success=True, Iterations=1 Elapsed=0.0011875 secs
 </CYPRESSTAG>
-Analog Routing phase: Elapsed time ==> 0s.001ms
+Analog Routing phase: Elapsed time ==> 0s.002ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -484,7 +484,7 @@ Map of item to net {
 }
 Mux Info {
 }
-Analog Code Generation phase: Elapsed time ==> 0s.019ms
+Analog Code Generation phase: Elapsed time ==> 0s.018ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
@@ -503,7 +503,7 @@ PLD Packing: Elapsed time ==> 0s.001ms
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.009ms
+Partitioning: Elapsed time ==> 0s.011ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -803,32 +803,32 @@ Port | Pin | Fixed |      Type |       Drive Mode |          Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 Digital component placer commit/Report: Elapsed time ==> 0s.009ms
-Digital Placement phase: Elapsed time ==> 0s.545ms
+Digital Placement phase: Elapsed time ==> 0s.509ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 "C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\dev\psoc4/4/route_arch-rrg.cydata" --vh2-path "RTC_P4_WDT_Example_V1.00.04-Fork1_r.vh2" --pcf-path "RTC_P4_WDT_Example_V1.00.04-Fork1.pco" --des-name "RTC_P4_WDT_Example_V1.00.04-Fork1" --dsf-path "RTC_P4_WDT_Example_V1.00.04-Fork1.dsf" --sdc-path "RTC_P4_WDT_Example_V1.00.04-Fork1.sdc" --lib-path "RTC_P4_WDT_Example_V1.00.04-Fork1_r.lib"
 Routing successful.
-Digital Routing phase: Elapsed time ==> 0s.782ms
+Digital Routing phase: Elapsed time ==> 0s.718ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 0s.294ms
+Bitstream Generation phase: Elapsed time ==> 0s.260ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.030ms
+Bitstream Verification phase: Elapsed time ==> 0s.034ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in RTC_P4_WDT_Example_V1.00.04-Fork1_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.203ms
+Static timing analysis phase: Elapsed time ==> 0s.194ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.180ms
+Design database save phase: Elapsed time ==> 0s.169ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 2s.882ms
+cydsfit: Elapsed time ==> 2s.683ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 2s.884ms
-API generation phase: Elapsed time ==> 1s.526ms
+Fitter phase: Elapsed time ==> 2s.684ms
+API generation phase: Elapsed time ==> 1s.400ms
 Dependency generation phase: Elapsed time ==> 0s.023ms
-Cleanup phase: Elapsed time ==> 0s.001ms
+Cleanup phase: Elapsed time ==> 0s.000ms

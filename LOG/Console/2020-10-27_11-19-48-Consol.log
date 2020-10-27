@@ -1,0 +1,1620 @@
+2020-10-27_11-19-48-Consol.log
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+~>[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .~.: No such file or directory
+[connected]
+
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+~>File to send: [2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+~.: No such file or directory
+[connected]
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_11-19-38
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  15 .
+
+WdtGetModeValue0:  3 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  15999 .
+WdtGetCountValue0:  12905 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  1 .
+WdtGetEnabledStatusValue2:  1 .
+WdtGetCountValue2:  18877 .
+WdtGetInterruptCallbackValue2:  4341 .
+Connected.
+Connected.
+
+Disconnected.
+2020-10-27_11-19-48_2020-10-27_11-21-56

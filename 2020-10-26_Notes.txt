@@ -60,3 +60,66 @@ CY8C4247AZI-M485 64-TQFP
 
 
 /* [] END OF FILE */
+
+
+
+\\wsl$\Ubuntu-18.04\home\benstockman\Apogee
+
+
+
+
+
+
+sudo chmod 666 /dev/ttyS5 - This is required since cu changes it's uid which drops capabilities even when running as root. Not all serial programs have the same behavior.
+stty -F /dev/ttyS5 -a . Optionally check your current serial settings before updating.
+Set your serial settings, depending on your application this usually will be raw or sane. Either one seems to work fine with cu:
+
+    stty -F /dev/ttyS5 sane 9600
+    stty -F /dev/ttyS5 raw 9600 -echo -echoe -echok -echoctl -echoke -iexten -onlcr cs8 crtscts
+
+cu -l /dev/ttyS5 -s 9600
+
+
+sudo chmod 666 /dev/ttyS3 - This is required since cu changes it's uid which drops capabilities even when running as root. Not all serial programs have the same behavior.
+stty -F /dev/ttyS3 -a . Optionally check your current serial settings before updating.
+
+
+benstockman@DP7510590YYF2:~$ stty -F /dev/ttyS3 -a
+speed 115200 baud; rows 0; columns 0; line = 0;
+intr = ^C; quit = ^\; erase = ^?; kill = ^U; eof = <undef>; eol = <undef>; eol2 = <undef>; swtch = <undef>; start = <undef>; stop = <undef>; susp = ^Z; rprnt = ^R; werase = ^W; lnext = ^V; discard = ^O;
+min = 1; time = 0;
+-parenb -parodd -cmspar cs8 hupcl -cstopb cread clocal -crtscts
+-ignbrk -brkint -ignpar -parmrk -inpck -istrip -inlcr -igncr icrnl -ixon -ixoff -iuclc -ixany -imaxbel -iutf8
+opost -olcuc -ocrnl onlcr -onocr -onlret -ofill -ofdel nl0 cr0 tab0 bs0 vt0 ff0
+isig icanon iexten -echo echoe echok -echonl -noflsh -xcase -tostop -echoprt echoctl echoke -flusho -extproc
+benstockman@DP7510590YYF2:~$
+
+
+
+Set your serial settings, depending on your application this usually will be raw or sane. 
+Either one seems to work fine with cu:
+
+    stty -F /dev/ttyS3 sane 115200
+    stty -F /dev/ttyS3 raw 115200 -echo -echoe -echok -echoctl -echoke -iexten -onlcr cs8 crtscts
+
+cu -l /dev/ttyS3 -s 115200
+
+~.  = Exit
+
+
+https://stackoverflow.com/questions/29518760/how-to-redirect-output-of-cu-to-a-file
+
+<command> | tee "$(date +"%Y-%m-%d_%H-%M-%S")-Consol.log"
+
+mkdir Apogee
+cd Apogee
+
+start_TimeStamp="$(date +"%Y-%m-%d_%H-%M-%S")"
+file="$start_TimeStamp-Consol.log"
+echo "$file"
+echo "$file" | tee "$file"
+cu -l /dev/ttyS3 -s 115200 | tee -a "$file"
+
+current_TimeStamp="$(date +"%Y-%m-%d_%H-%M-%S")"
+runtime="$start_TimeStamp"_"$current_TimeStamp"
+echo "$runtime" | tee -a "$file"

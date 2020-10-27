@@ -1,6 +1,6 @@
 -- ======================================================================
 -- RTC_P4_WDT_Example_V1.00.04-Fork1.ctl generated from RTC_P4_WDT_Example_V1.00.04-Fork1
--- 10/27/2020 at 09:14
+-- 10/27/2020 at 11:19
 -- This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 -- ======================================================================
 

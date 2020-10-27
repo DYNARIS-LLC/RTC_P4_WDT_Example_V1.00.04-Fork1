@@ -10358,29 +10358,30 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  445              	.set CYDEV_VDDD_MV, 3300
  446              	.set CYDEV_VDDIO_MV, 3300
  447              	.set CYDEV_WDT_GENERATE_ISR, 1
- 448              	.set CYDEV_WDT2_DIV, 32768
- 449              	.set CYIPBLOCK_m0s8can_VERSION, 1
- 450              	.set CYIPBLOCK_m0s8cpussv2_VERSION, 1
- 451              	.set CYIPBLOCK_m0s8csd_VERSION, 1
- 452              	.set CYIPBLOCK_m0s8ioss_VERSION, 1
- 453              	.set CYIPBLOCK_m0s8lcd_VERSION, 2
- 454              	.set CYIPBLOCK_m0s8lpcomp_VERSION, 2
- 455              	.set CYIPBLOCK_m0s8peri_VERSION, 1
- 456              	.set CYIPBLOCK_m0s8scb_VERSION, 2
- 457              	.set CYIPBLOCK_m0s8srssv2_VERSION, 1
- 458              	.set CYIPBLOCK_m0s8tcpwm_VERSION, 2
- 459              	.set CYIPBLOCK_m0s8udbif_VERSION, 1
- 460              	.set CYIPBLOCK_m0s8wco_VERSION, 1
- 461              	.set CYIPBLOCK_s8pass4al_VERSION, 1
- 462              	.set DMA_CHANNELS_USED__MASK, 0
- 463              	.set CYDEV_BOOTLOADER_ENABLE, 0
- 464              	.endif
+ 448              	.set CYDEV_WDT0_DIV, 16000
+ 449              	.set CYDEV_WDT2_DIV, 32768
+ 450              	.set CYIPBLOCK_m0s8can_VERSION, 1
+ 451              	.set CYIPBLOCK_m0s8cpussv2_VERSION, 1
+ 452              	.set CYIPBLOCK_m0s8csd_VERSION, 1
+ 453              	.set CYIPBLOCK_m0s8ioss_VERSION, 1
+ 454              	.set CYIPBLOCK_m0s8lcd_VERSION, 2
+ 455              	.set CYIPBLOCK_m0s8lpcomp_VERSION, 2
+ 456              	.set CYIPBLOCK_m0s8peri_VERSION, 1
+ 457              	.set CYIPBLOCK_m0s8scb_VERSION, 2
+ 458              	.set CYIPBLOCK_m0s8srssv2_VERSION, 1
+ 459              	.set CYIPBLOCK_m0s8tcpwm_VERSION, 2
+ 460              	.set CYIPBLOCK_m0s8udbif_VERSION, 1
+ 461              	.set CYIPBLOCK_m0s8wco_VERSION, 1
+ 462              	.set CYIPBLOCK_s8pass4al_VERSION, 1
+ 463              	.set DMA_CHANNELS_USED__MASK, 0
+ 464              	.set CYDEV_BOOTLOADER_ENABLE, 0
+ 465              	.endif
   19              	
   20              	
-  21              	/*******************************************************************************
 ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 174
 
 
+  21              	/*******************************************************************************
   22              	* Function Name: CyDelayCycles
   23              	****************************************************************************//**
   24              	*
@@ -10437,10 +10438,10 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
   75 000e C046     	    NOP                     /*    1    2    Loop alignment padding */
   76 0010 7047     	    BX lr                   /*    3    2 */
   77              	.endfunc
-  78              	
 ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 175
 
 
+  78              	
   79              	
   80              	/*******************************************************************************
   81              	* Function Name: CyEnterCriticalSection
@@ -10497,9 +10498,9 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  132              	CyExitCriticalSection:
  133 001a 80F31088 	    MSR PRIMASK, r0         /* Restore interrupt state */
  134 001e 7047     	    BX lr
- 135              	.endfunc
 ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 176
 
 
+ 135              	.endfunc
  136              	
  137              	.end

@@ -53,6 +53,7 @@ int main()
     char compileTimeString[0x40] = {' '};
     
     uint32 myLoop = 0;
+    uint32 myLoopTotal = 200;
     /* Start RTC component */
     initRTC();
     setRTCUpdate();
@@ -66,8 +67,10 @@ int main()
     UART_PutString(uartString);
     strcpy(compileTimeString,getTimeDateString());
     UART_PutString(compileTimeString);
+    
     sprintf(uartString, "\r\nInitialization\r\n\r\n");
     UART_PutString(uartString);
+    //Print Processor Info
     printDIEinfo();
     sprintf(uartString, "\r\n\r\n\r\n");
     UART_PutString(uartString);
@@ -94,7 +97,7 @@ int main()
     UART_PutString(uartString);
 
     DIO_0_0_Write(!(DIO_0_0_Read()));
-    while(myLoop <= 400)
+    while(myLoop <= myLoopTotal)
     {
         
         /* Get Date and Time from RTC */

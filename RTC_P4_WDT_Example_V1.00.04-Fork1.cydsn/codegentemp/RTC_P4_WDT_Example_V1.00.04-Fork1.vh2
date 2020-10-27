@@ -2,7 +2,7 @@
 --	Conversion of RTC_P4_WDT_Example_V1.00.04-Fork1.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Tue Oct 27 09:14:53 2020
+--	Tue Oct 27 11:19:33 2020
 --
 
 USE cypress.cypress.all;

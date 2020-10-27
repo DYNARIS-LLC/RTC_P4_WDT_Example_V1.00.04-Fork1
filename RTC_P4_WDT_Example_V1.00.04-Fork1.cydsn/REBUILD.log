@@ -1,4 +1,4 @@
---------------- Rebuild Started: 10/27/2020 09:14:50 Project: RTC_P4_WDT_Example_V1.00.04-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Rebuild Started: 10/27/2020 11:19:29 Project: RTC_P4_WDT_Example_V1.00.04-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\main.o"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\MyTime.o"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\MyWDT.o"
@@ -140,4 +140,4 @@ Checksum calculated and stored in ELF section .cymeta
 cyelftool.exe -S V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.elf
 Flash used: 13302 of 131072 bytes (10.1%).
 SRAM used: 1920 of 16384 bytes (11.7%). Stack: 1024 bytes. Heap: 128 bytes.
---------------- Rebuild Succeeded: 10/27/2020 09:15:07 ---------------
+--------------- Rebuild Succeeded: 10/27/2020 11:19:45 ---------------

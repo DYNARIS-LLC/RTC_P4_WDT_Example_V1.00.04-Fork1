@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2020-10-27T14:14:56Z")
+ (DATE "2020-10-27T16:19:36Z")
  (DESIGN "RTC_P4_WDT_Example_V1.00.04-Fork1")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")

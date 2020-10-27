@@ -10358,29 +10358,30 @@ ARM GAS  Generated_Source\PSoC4\UART_AsmGnu.s 			page 1
  445              	.set CYDEV_VDDD_MV, 3300
  446              	.set CYDEV_VDDIO_MV, 3300
  447              	.set CYDEV_WDT_GENERATE_ISR, 1
- 448              	.set CYDEV_WDT2_DIV, 32768
- 449              	.set CYIPBLOCK_m0s8can_VERSION, 1
- 450              	.set CYIPBLOCK_m0s8cpussv2_VERSION, 1
- 451              	.set CYIPBLOCK_m0s8csd_VERSION, 1
- 452              	.set CYIPBLOCK_m0s8ioss_VERSION, 1
- 453              	.set CYIPBLOCK_m0s8lcd_VERSION, 2
- 454              	.set CYIPBLOCK_m0s8lpcomp_VERSION, 2
- 455              	.set CYIPBLOCK_m0s8peri_VERSION, 1
- 456              	.set CYIPBLOCK_m0s8scb_VERSION, 2
- 457              	.set CYIPBLOCK_m0s8srssv2_VERSION, 1
- 458              	.set CYIPBLOCK_m0s8tcpwm_VERSION, 2
- 459              	.set CYIPBLOCK_m0s8udbif_VERSION, 1
- 460              	.set CYIPBLOCK_m0s8wco_VERSION, 1
- 461              	.set CYIPBLOCK_s8pass4al_VERSION, 1
- 462              	.set DMA_CHANNELS_USED__MASK, 0
- 463              	.set CYDEV_BOOTLOADER_ENABLE, 0
- 464              	.endif
+ 448              	.set CYDEV_WDT0_DIV, 16000
+ 449              	.set CYDEV_WDT2_DIV, 32768
+ 450              	.set CYIPBLOCK_m0s8can_VERSION, 1
+ 451              	.set CYIPBLOCK_m0s8cpussv2_VERSION, 1
+ 452              	.set CYIPBLOCK_m0s8csd_VERSION, 1
+ 453              	.set CYIPBLOCK_m0s8ioss_VERSION, 1
+ 454              	.set CYIPBLOCK_m0s8lcd_VERSION, 2
+ 455              	.set CYIPBLOCK_m0s8lpcomp_VERSION, 2
+ 456              	.set CYIPBLOCK_m0s8peri_VERSION, 1
+ 457              	.set CYIPBLOCK_m0s8scb_VERSION, 2
+ 458              	.set CYIPBLOCK_m0s8srssv2_VERSION, 1
+ 459              	.set CYIPBLOCK_m0s8tcpwm_VERSION, 2
+ 460              	.set CYIPBLOCK_m0s8udbif_VERSION, 1
+ 461              	.set CYIPBLOCK_m0s8wco_VERSION, 1
+ 462              	.set CYIPBLOCK_s8pass4al_VERSION, 1
+ 463              	.set DMA_CHANNELS_USED__MASK, 0
+ 464              	.set CYDEV_BOOTLOADER_ENABLE, 0
+ 465              	.endif
   19              	
   20              	
-  21              	.syntax unified
 ARM GAS  Generated_Source\PSoC4\UART_AsmGnu.s 			page 174
 
 
+  21              	.syntax unified
   22              	.text
   23              	.thumb
   24              	
@@ -10437,10 +10438,10 @@ ARM GAS  Generated_Source\PSoC4\UART_AsmGnu.s 			page 1
   75 0032 234A     	    LDR r2, PIN_NUMBER              /*   2       2  */
   76 0034 1268     	    LDR r2, [r2, #0]                /*   2       2  */
   77 0036 0121     	    MOVS r1, #1                     /*   1       2  */
-  78 0038 9140     	    LSLS r1, r1, r2                 /*   1       2  */
 ARM GAS  Generated_Source\PSoC4\UART_AsmGnu.s 			page 175
 
 
+  78 0038 9140     	    LSLS r1, r1, r2                 /*   1       2  */
   79 003a C943     	    MVNS r1, r1                     /*   1       2  */
   80 003c 0C00     	    MOVS r4, r1                     /*   1       2   Save pin state mask to [r4]  */
   81 003e 0125     	    MOVS r5, #1                     /*   1       2   Prepare lower bit mask [r5]  */
@@ -10497,10 +10498,10 @@ ARM GAS  Generated_Source\PSoC4\UART_AsmGnu.s 			page 1
  132              	
  133 008c 4846     	    MOV r0, r9                      /*   1       2  */
  134 008e FFF7FEFF 	    BL CyExitCriticalSection        /*   4       2   Restore interrupt state  */
- 135 0092 C046     	    NOP                             /*   1       2  */
 ARM GAS  Generated_Source\PSoC4\UART_AsmGnu.s 			page 176
 
 
+ 135 0092 C046     	    NOP                             /*   1       2  */
  136 0094 C046     	    NOP                             /*   1       2  */
  137 0096 C046     	    NOP                             /*   1       2  */
  138 0098 0EBC     	    POP {r1, r2, r3}
