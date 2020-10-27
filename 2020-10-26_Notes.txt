@@ -65,7 +65,7 @@ CY8C4247AZI-M485 64-TQFP
 
 \\wsl$\Ubuntu-18.04\home\benstockman\Apogee
 
-
+V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\LOG\Console
 
 
 
@@ -113,6 +113,9 @@ https://stackoverflow.com/questions/29518760/how-to-redirect-output-of-cu-to-a-f
 
 mkdir Apogee
 cd Apogee
+cd ~/Apogee
+
+
 
 start_TimeStamp="$(date +"%Y-%m-%d_%H-%M-%S")"
 file="$start_TimeStamp-Consol.log"
@@ -123,3 +126,8 @@ cu -l /dev/ttyS3 -s 115200 | tee -a "$file"
 current_TimeStamp="$(date +"%Y-%m-%d_%H-%M-%S")"
 runtime="$start_TimeStamp"_"$current_TimeStamp"
 echo "$runtime" | tee -a "$file"
+
+
+
+
+$((Get-Date).ToString('yyyy-MM-dd_hh-mm-ss-ff')) | clip 

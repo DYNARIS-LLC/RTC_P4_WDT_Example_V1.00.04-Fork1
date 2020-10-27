@@ -14,6 +14,46 @@
 #include "DIO_0_3_aliases.h"
 
 
+void setAllWDTisr(){
+        /* Map the WatchDog_ISR vector to the WDT_ISR */
+    isr_WDT_StartEx(WDT_ISR);
+}
+
+/*
+CY_ISR(WDT_ISR)
+{
+    // Clear WDT interrupt 
+    CySysWdtClearInterrupt();
+
+    // Write WDT_MATCH with current match value + desired match value
+    //CySysWdtWriteMatch((uint16)CySysWdtReadMatch()+ILODelayCycles);
+}
+*/
+CY_ISR(WDT_ISR)
+{
+    UART_PutString("\r\nwdtInterruptHandler\r\n");
+    DIO_0_3_Write(!(DIO_0_3_Read()));
+    //trigger_Write(1); // Chip is woken up 
+    uint32 reason = CySysWdtGetInterruptSource();
+    
+    if(reason & CY_SYS_WDT_COUNTER0_INT)
+        //RED_Write(~RED_Read());
+        //EnableRtcOperation();
+        //WDT_CHK_ISR0();
+        EnableRtcWDT0Operation();
+  
+    if(reason & CY_SYS_WDT_COUNTER1_INT)
+        //GREEN_Write(~GREEN_Read());
+  
+    if(reason & CY_SYS_WDT_COUNTER2_INT)
+        //BLUE_Write(~BLUE_Read());
+        //RTC_Update();
+        myRTC_Update();
+  
+    CySysWdtClearInterrupt(reason);  // Clear the WDT Interrupt
+    
+}
+
 void initWDT0(){
     /* Prepare COUNTER0 to use it by CySysTimerDelay function in
      * "INTERRUPT" mode: disable "clear on match" functionality, configure
@@ -51,6 +91,7 @@ void initWDT0(){
 *  None
 *
 *******************************************************************************/
+//void EnableRtcWDT0Operation(void)
 void EnableRtcWDT0Operation(void)
 {
     //DIO_0_3_Write(!(DIO_0_3_Read()));

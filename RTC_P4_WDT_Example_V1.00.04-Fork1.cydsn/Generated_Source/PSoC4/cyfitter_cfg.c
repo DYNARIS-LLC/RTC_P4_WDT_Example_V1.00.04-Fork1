@@ -21,7 +21,6 @@
 #include "cydevice_trm.h"
 #include "cyfitter.h"
 #include "CyLib.h"
-#include "CyLFClk.h"
 #include "cyfitter_cfg.h"
 #include "cyapicallbacks.h"
 
@@ -192,13 +191,7 @@ static void ClockSetup(void)
 	/* CYDEV_CLK_SELECT Starting address: CYDEV_CLK_SELECT */
 	CY_SET_REG32((void *)(CYREG_CLK_SELECT), 0x00080000u);
 
-	(void)CyIntSetVector(7u, &CySysWdtIsr);
-	CyIntEnable(7u);
-	CY_SET_REG32((void *)(CYREG_WDT_MATCH), 0x00003E7Fu);
-	CY_SET_REG32((void *)(CYREG_WDT_CONFIG), 0x4F010007u);
-	CY_SET_REG32((void *)(CYREG_WDT_CONTROL), 0x00080008u);
-	while ((CY_GET_XTND_REG32((void CYFAR *)(CYREG_WDT_CONTROL)) & 0x00080008u) != 0u) { }
-	CY_SET_REG32((void *)(CYREG_WDT_CONTROL), 0x00010001u);
+	CY_SET_REG32((void *)(CYREG_WDT_CONFIG), 0x40000000u);
 }
 
 

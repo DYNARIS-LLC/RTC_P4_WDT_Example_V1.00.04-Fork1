@@ -2,7 +2,7 @@
 --	Conversion of RTC_P4_WDT_Example_V1.00.04-Fork1.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Tue Oct 27 11:19:33 2020
+--	Tue Oct 27 14:12:32 2020
 --
 
 USE cypress.cypress.all;
@@ -12,6 +12,7 @@ ATTRIBUTE part_name of top_RTL:TYPE IS "cpsoc3";
 END top_RTL;
 --------------------------------------------------------
 ARCHITECTURE R_T_L OF top_RTL IS
+SIGNAL Net_185 : bit;
 TERMINAL Net_181 : bit;
 TERMINAL Net_182 : bit;
 SIGNAL tmpOE__LED_Alarm_net_0 : bit;
@@ -49,6 +50,9 @@ zero <=  ('0') ;
 
 tmpOE__LED_Alarm_net_0 <=  ('1') ;
 
+GlobalSignal_1:cy_gsref_v1_0
+	GENERIC MAP(guid=>"1563FAA8-0748-4a1c-9785-CED309984BE3")
+	PORT MAP(sig_out=>Net_185);
 PWR_2:cy_annotation_universal_v1_0
 	GENERIC MAP(comp_name=>"Power_v1_0",
 		port_names=>"T1",
@@ -279,6 +283,10 @@ Blue:cy_annotation_universal_v1_0
 		port_names=>"A, K",
 		width=>2)
 	PORT MAP(connect=>(Net_181, Net_47));
+isr_WDT:cy_isr_v1_0
+	GENERIC MAP(int_type=>"10",
+		is_nmi=>'0')
+	PORT MAP(int_signal=>Net_185);
 DIO_0_0:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"860df36b-df07-4a4c-af90-f7e159838d4c",
 		drive_mode=>"110",

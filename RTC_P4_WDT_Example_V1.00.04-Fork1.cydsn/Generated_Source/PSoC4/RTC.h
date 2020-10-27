@@ -144,7 +144,7 @@ typedef struct
 
 #define RTC_INITIAL_DATA_FORMAT     (0u)
 #define RTC_INITIAL_TIME_FORMAT     (0u)
-#define RTC_INITIAL_UPDATE_MODE     (0u)
+#define RTC_INITIAL_UPDATE_MODE     (1u)
 #define RTC_INITIAL_SECOND          (41u)
 #define RTC_INITIAL_MINUTE          (18u)
 #define RTC_INITIAL_HOUR            (5u)

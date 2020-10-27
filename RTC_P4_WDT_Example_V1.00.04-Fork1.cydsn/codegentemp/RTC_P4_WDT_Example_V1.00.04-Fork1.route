@@ -1,0 +1,11 @@
+net ClockBlock_HFCLK
+	term   ":m0s8clockblockcell.hfclk"
+	switch ":m0s8clockblockcell.hfclk==>:interrupt_7.clock"
+	term   ":interrupt_7.clock"
+end ClockBlock_HFCLK
+net WDT_INT_OUT
+	term   ":m0s8srsscell.interrupt_wdt"
+	switch ":m0s8srsscell.interrupt_wdt==>:interrupt_idmux_7.in_0"
+	switch ":interrupt_idmux_7.interrupt_idmux_7__out==>:interrupt_7.interrupt"
+	term   ":interrupt_7.interrupt"
+end WDT_INT_OUT

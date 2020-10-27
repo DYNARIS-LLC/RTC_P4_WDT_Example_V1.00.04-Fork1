@@ -12,6 +12,8 @@
 #include "UART.h"
 #include "CyLFClk.h"
 #include "CyLib.h"
+#include "isr_WDT.h"
+
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -29,6 +31,11 @@ CY_ISR_PROTO(UpdateTimeIsrWDT0Handler);
 
 CY_ISR_PROTO(EnableRtcWDT1Operation);
 CY_ISR_PROTO(UpdateTimeIsrWDT1Handler);
+
+CY_ISR_PROTO(WDT_ISR);
+
+
+void setAllWDTisr(void);
 
 void initWDT0(void);
 void initWDT1(void);

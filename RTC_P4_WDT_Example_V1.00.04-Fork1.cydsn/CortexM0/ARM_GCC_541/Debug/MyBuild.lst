@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 1
 
 
    1              		.syntax unified
@@ -26,7 +26,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
   23              		.thumb_func
   24              		.type	printDIEinfo, %function
   25              	printDIEinfo:
-  26              	.LFB64:
+  26              	.LFB62:
   27              		.file 1 "MyBuild.c"
    1:MyBuild.c     **** /* ========================================
    2:MyBuild.c     ****  *
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
   16:MyBuild.c     ****     CyGetUniqueId(uniqueId);
   40              		.loc 1 16 0
   41 0004 154D     		ldr	r5, .L2
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 2
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 2
 
 
   42 0006 2800     		movs	r0, r5
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
   77 0036 2340     		ands	r3, r4
   78 0038 0B4D     		ldr	r5, .L2+12
   79 003a 2140     		ands	r1, r4
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 3
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 3
 
 
   80 003c 0291     		str	r1, [sp, #8]
@@ -162,7 +162,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  104 0068 00000000 		.word	uniqueUniqueIdInfo
  105 006c 24000000 		.word	.LC4
  106              		.cfi_endproc
- 107              	.LFE64:
+ 107              	.LFE62:
  108              		.size	printDIEinfo, .-printDIEinfo
  109              		.comm	uniqueUniqueIdInfo,80,4
  110              		.comm	commonUniqueIdInfo,60,4
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  116 0023 00       		.space	1
  117              	.LC4:
  118 0024 0A0D5265 		.ascii	"\012\015RevID=%03lu Lot0=%03lu Lot1=%03lu Lot2=%03l"
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 4
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 4
 
 
  118      7649443D 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  166 004f 02       		.uleb128 0x2
  167 0050 08       		.byte	0x8
  168 0051 05       		.byte	0x5
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 5
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 5
 
 
  169 0052 00000000 		.4byte	.LASF6
@@ -288,8 +288,8 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  213 00a7 2E020000 		.4byte	.LASF26
  214 00ab 01       		.byte	0x1
  215 00ac 0E       		.byte	0xe
- 216 00ad 00000000 		.4byte	.LFB64
- 217 00b1 70000000 		.4byte	.LFE64-.LFB64
+ 216 00ad 00000000 		.4byte	.LFB62
+ 217 00b1 70000000 		.4byte	.LFE62-.LFB62
  218 00b5 01       		.uleb128 0x1
  219 00b6 9C       		.byte	0x9c
  220 00b7 3F010000 		.4byte	0x13f
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  223 00c0 C8010000 		.4byte	0x1c8
  224 00c4 CF000000 		.4byte	0xcf
  225 00c8 07       		.uleb128 0x7
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 6
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 6
 
 
  226 00c9 01       		.uleb128 0x1
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  280 0120 02       		.uleb128 0x2
  281 0121 74       		.byte	0x74
  282 0122 00       		.sleb128 0
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 7
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 7
 
 
  283 0123 07       		.uleb128 0x7
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  337 0187 79000000 		.4byte	0x79
  338 018b 96010000 		.4byte	0x196
  339 018f 0A       		.uleb128 0xa
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 8
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 8
 
 
  340 0190 72000000 		.4byte	0x72
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  394 000a 0E       		.uleb128 0xe
  395 000b 55       		.uleb128 0x55
  396 000c 17       		.uleb128 0x17
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 9
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 9
 
 
  397 000d 11       		.uleb128 0x11
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  451 0043 11       		.uleb128 0x11
  452 0044 01       		.uleb128 0x1
  453 0045 12       		.uleb128 0x12
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 10
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 10
 
 
  454 0046 06       		.uleb128 0x6
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  508 0084 00       		.byte	0
  509 0085 00       		.byte	0
  510 0086 0B       		.uleb128 0xb
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 11
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 11
 
 
  511 0087 26       		.uleb128 0x26
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  565 00bd 0B       		.uleb128 0xb
  566 00be 00       		.byte	0
  567 00bf 00       		.byte	0
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 12
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 12
 
 
  568 00c0 00       		.byte	0
@@ -670,14 +670,14 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  574 000b 00       		.byte	0
  575 000c 0000     		.2byte	0
  576 000e 0000     		.2byte	0
- 577 0010 00000000 		.4byte	.LFB64
- 578 0014 70000000 		.4byte	.LFE64-.LFB64
+ 577 0010 00000000 		.4byte	.LFB62
+ 578 0014 70000000 		.4byte	.LFE62-.LFB62
  579 0018 00000000 		.4byte	0
  580 001c 00000000 		.4byte	0
  581              		.section	.debug_ranges,"",%progbits
  582              	.Ldebug_ranges0:
- 583 0000 00000000 		.4byte	.LFB64
- 584 0004 70000000 		.4byte	.LFE64
+ 583 0000 00000000 		.4byte	.LFB62
+ 584 0004 70000000 		.4byte	.LFE62
  585 0008 00000000 		.4byte	0
  586 000c 00000000 		.4byte	0
  587              		.section	.debug_line,"",%progbits
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  603      64617973 
  603      4265666F 
  603      72654D6F 
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 13
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 13
 
 
  603      6E746854 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  623      6400
  624              	.LASF22:
  625 0146 55415254 		.ascii	"UART_PutString\000"
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 14
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 14
 
 
  625      5F507574 
@@ -838,6 +838,6 @@ ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 1
  647      74797065 
  647      00
  648              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
-ARM GAS  C:\Users\ben\AppData\Local\Temp\cctyaTw0.s 			page 15
+ARM GAS  C:\Users\ben\AppData\Local\Temp\ccIkNx6A.s 			page 15
 
 

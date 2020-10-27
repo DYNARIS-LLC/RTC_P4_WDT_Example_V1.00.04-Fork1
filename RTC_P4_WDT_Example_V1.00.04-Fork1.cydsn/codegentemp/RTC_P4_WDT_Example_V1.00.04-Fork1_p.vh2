@@ -1,5 +1,5 @@
 -- Project:   RTC_P4_WDT_Example_V1.00.04-Fork1
--- Generated: 10/27/2020 11:19:34
+-- Generated: 10/27/2020 14:12:33
 -- PSoC Creator  4.3
 
 ENTITY \RTC_P4_WDT_Example_V1.00.04-Fork1\ IS
@@ -35,6 +35,7 @@ ARCHITECTURE __DEFAULT__ OF \RTC_P4_WDT_Example_V1.00.04-Fork1\ IS
     SIGNAL DIO_0_3(0)__PA : bit;
     SIGNAL LED_Alarm(0)__PA : bit;
     SIGNAL LED_WdtIsr(0)__PA : bit;
+    SIGNAL WDT_INT_OUT : bit;
     SIGNAL \\\UART:tx(0)\\__PA\ : bit;
     SIGNAL __ONE__ : bit;
     ATTRIBUTE POWER OF __ONE__ : SIGNAL IS true;
@@ -55,6 +56,11 @@ ARCHITECTURE __DEFAULT__ OF \RTC_P4_WDT_Example_V1.00.04-Fork1\ IS
     ATTRIBUTE Location OF DIO_0_0(0) : LABEL IS "P0[0]";
     ATTRIBUTE lib_model OF DIO_0_3(0) : LABEL IS "iocell5";
     ATTRIBUTE Location OF DIO_0_3(0) : LABEL IS "P0[3]";
+    COMPONENT interrupt
+        PORT (
+            interrupt : IN std_ulogic;
+            clock : IN std_ulogic);
+    END COMPONENT;
     COMPONENT iocell
         PORT (
             oe : IN std_ulogic;
@@ -208,6 +214,19 @@ ARCHITECTURE __DEFAULT__ OF \RTC_P4_WDT_Example_V1.00.04-Fork1\ IS
             gen_clk_out_5 : OUT std_ulogic;
             gen_clk_out_6 : OUT std_ulogic;
             gen_clk_out_7 : OUT std_ulogic);
+    END COMPONENT;
+    COMPONENT m0s8srsscell
+        PORT (
+            clock_pump : IN std_ulogic;
+            clock_ss : IN std_ulogic;
+            dsi_ss_code_0 : IN std_ulogic;
+            dsi_ss_code_1 : IN std_ulogic;
+            dsi_ss_code_2 : IN std_ulogic;
+            dsi_ss_code_3 : IN std_ulogic;
+            dsi_ss_code_4 : IN std_ulogic;
+            dsi_ss_updown : OUT std_ulogic;
+            interrupt_wdt : OUT std_ulogic;
+            interrupt_pwr : OUT std_ulogic);
     END COMPONENT;
 BEGIN
 
@@ -676,5 +695,17 @@ BEGIN
             out_clock => open,
             out_clock_en => '1',
             out_reset => '0');
+
+    isr_WDT:interrupt
+        GENERIC MAP(
+            int_type => "10",
+            is_nmi => 0)
+        PORT MAP(
+            interrupt => WDT_INT_OUT,
+            clock => ClockBlock_HFCLK);
+
+    SRSS:m0s8srsscell
+        PORT MAP(
+            interrupt_wdt => WDT_INT_OUT);
 
 END __DEFAULT__;

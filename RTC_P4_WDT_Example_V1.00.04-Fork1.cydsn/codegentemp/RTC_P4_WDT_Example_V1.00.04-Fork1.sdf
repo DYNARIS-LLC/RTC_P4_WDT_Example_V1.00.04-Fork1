@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2020-10-27T16:19:36Z")
+ (DATE "2020-10-27T19:12:34Z")
  (DESIGN "RTC_P4_WDT_Example_V1.00.04-Fork1")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -12,6 +12,8 @@
   (INSTANCE *)
   (DELAY
    (ABSOLUTE
+    (INTERCONNECT ClockBlock.hfclk isr_WDT.clock (0.000:0.000:0.000))
+    (INTERCONNECT SRSS.interrupt_wdt isr_WDT.interrupt (1.000:1.000:1.000))
     (INTERCONNECT LED_Alarm\(0\)_PAD LED_Alarm\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT LED_WdtIsr\(0\)_PAD LED_WdtIsr\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT \\UART\:tx\(0\)_PAD\\ \\UART\:tx\(0\)\\.pad_in (0.000:0.000:0.000))

@@ -25,6 +25,7 @@
 #include "RTC.h"
 #include "UART.h"
 #include "UART_PVT.h"
+#include "isr_WDT.h"
 #include "DIO_0_0.h"
 #include "DIO_0_0_aliases.h"
 #include "DIO_0_3.h"

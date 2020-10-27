@@ -54,6 +54,16 @@ int main()
     
     uint32 myLoop = 0;
     uint32 myLoopTotal = 200;
+    
+    if(CySysGetResetReason(CY_SYS_RESET_WDT) == CY_SYS_RESET_WDT){
+        UART_PutString("\r\n Device restarted by CY_SYS_RESET_WDT \r\nStoped for forever");
+        
+        //CySysWdtDisable(CY_SYS_WDT_COUNTER0_MASK);
+        getALL_WDT_Values();
+        while(1);    
+        
+    }
+    
     /* Start RTC component */
     initRTC();
     setRTCUpdate();
@@ -83,10 +93,9 @@ int main()
     
     /* Enable global interrupts */
     CyGlobalIntEnable;
-
-    /* Alarm structure initialization */
-    //alarmTimeDate.time = ALARM_TIME_HR_MIN_SEC;
-    //alarmTimeDate.date = ALARM_DATE_MONTH_DAY_YEAR;
+    
+    //Enable and Start WDT ISR 
+    setAllWDTisr();
     
     initWDT0();
     

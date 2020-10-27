@@ -1,0 +1,269 @@
+2020-10-27_14-14-34-Consol.log
+ã@ 
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  0 .
+
+WdtGetModeValue0:  1 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  65534 .
+WdtGetCountValue0:  12247 .
+WdtGetInterruptCallbackValue0:  1121 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  0 .
+WdtGetEnabledStatusValue2:  0 .
+WdtGetCountValue2:  0 .
+WdtGetInterruptCallbackValue2:  0 .
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-372020-10-27_14-12-372020-10-27_14-12-372020-10-27_14-12-37[2J[;H
+
+
+RTC_P4_WDT_Example_V1.00.04-Fork1 
+Compile Time: 2020-10-27_14-12-37
+Initialization
+
+Wafer=004 XPos=018 YPos=031
+RevID=000 Lot0=020 Lot1=250 Lot2=068 Sort=027
+
+
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  0 .
+
+WdtGetModeValue0:  0 .
+WdtGetEnabledStatusValue0:  0 .
+WdtGetClearOnMatchValue0:  0 .
+WdtGetMatchValue0:  0 .
+WdtGetCountValue0:  0 .
+WdtGetInterruptCallbackValue0:  0 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  0 .
+WdtGetEnabledStatusValue2:  0 .
+WdtGetCountValue2:  0 .
+WdtGetInterruptCallbackValue2:  0 .
+
+wdtInterruptHandler
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  0 .
+
+WdtGetModeValue0:  1 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  65534 .
+WdtGetCountValue0:  12250 .
+WdtGetInterruptCallbackValue0:  1121 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  0 .
+WdtGetEnabledStatusValue2:  0 .
+WdtGetCountValue2:  0 .
+WdtGetInterruptCallbackValue2:  0 .
+
+Entering Main Loop
+
+
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+
+
+WcoEnabledValue:  1 .
+WdtGetCascadeValue:  0 .
+WdtGetToggleBitValue:  0 .
+
+WdtGetModeValue0:  1 .
+WdtGetEnabledStatusValue0:  1 .
+WdtGetClearOnMatchValue0:  1 .
+WdtGetMatchValue0:  65534 .
+WdtGetCountValue0:  12247 .
+WdtGetInterruptCallbackValue0:  1121 .
+
+WdtGetModeValue1:  0 .
+WdtGetEnabledStatusValue1:  0 .
+WdtGetClearOnMatchValue1:  0 .
+WdtGetMatchValue1:  0 .
+WdtGetCountValue1:  0 .
+WdtGetInterruptCallbackValue1:  0 .
+
+WdtGetModeValue2:  0 .
+WdtGetEnabledStatusValue2:  0 .
+WdtGetCountValue2:  0 .
+WdtGetInterruptCallbackValue2:  0 .
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37
+wdtInterruptHandler
+2020-10-27_14-12-37Connected.
+Connected.
+
+Disconnected.
+2020-10-27_14-14-34_2020-10-27_14-17-17

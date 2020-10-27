@@ -1,5 +1,5 @@
 # RTC_P4_WDT_Example_V1.00.04-Fork1
-# 2020-10-27 16:19:35Z
+# 2020-10-27 19:12:33Z
 
 # IO_4@[IOP=(0)][IoId=(4)] is reserved: KhzXtalEnabled
 dont_use_io iocell 0 4
@@ -16,3 +16,5 @@ set_io "LED_WdtIsr(0)" iocell 0 6
 set_io "\UART:tx(0)\" iocell 7 1
 set_io "DIO_0_0(0)" iocell 0 0
 set_io "DIO_0_3(0)" iocell 0 3
+set_location "isr_WDT" interrupt -1 -1 7
+set_location "SRSS" m0s8srsscell -1 -1 0

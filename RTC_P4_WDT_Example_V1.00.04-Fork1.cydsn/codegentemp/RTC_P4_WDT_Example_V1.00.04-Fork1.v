@@ -1,6 +1,6 @@
 // ======================================================================
 // RTC_P4_WDT_Example_V1.00.04-Fork1.v generated from TopDesign.cysch
-// 10/27/2020 at 11:19
+// 10/27/2020 at 14:12
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -191,10 +191,16 @@ module top ;
 
     electrical  Net_182;
     electrical  Net_181;
-          wire  Net_180;
-          wire  Net_179;
+          wire  Net_185;
     electrical  Net_47;
     electrical  Net_1782;
+
+
+	cy_gsref_v1_0
+		#(.guid("1563FAA8-0748-4a1c-9785-CED309984BE3"))
+		GlobalSignal_1
+		 (.sig_out(Net_185));
+
 
     cy_annotation_universal_v1_0 PWR_2 (
         .connect({
@@ -387,6 +393,13 @@ module top ;
     defparam Blue.comp_name = "LED_v1_0";
     defparam Blue.port_names = "A, K";
     defparam Blue.width = 2;
+
+
+	cy_isr_v1_0
+		#(.int_type(2'b10))
+		isr_WDT
+		 (.int_signal(Net_185));
+
 
 	wire [0:0] tmpOE__DIO_0_0_net;
 	wire [0:0] tmpFB_0__DIO_0_0_net;

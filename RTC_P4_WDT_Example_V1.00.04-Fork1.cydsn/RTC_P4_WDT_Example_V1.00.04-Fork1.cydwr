@@ -1062,7 +1062,7 @@
         <Data key="desired_freq" value="0" />
         <Data key="desired_unit" value="0" />
         <Data key="divider" value="15" />
-        <Data key="enabled" value="True" />
+        <Data key="enabled" value="False" />
         <Data key="minus_tolerance" value="0" />
         <Data key="name" value="Timer2 (WDT2)" />
         <Data key="netlist_name" value="Timer2 (WDT2)" />
@@ -1114,8 +1114,8 @@
       <Group key="94835B23-A1C6-4386-9A1F-A6C9073F9668">
         <Data key="check_tolerance" value="False" />
         <Data key="derive_type" value="BUILTIN" />
-        <Data key="desired_freq" value="1" />
-        <Data key="desired_unit" value="0" />
+        <Data key="desired_freq" value="0" />
+        <Data key="desired_unit" value="15" />
         <Data key="divider" value="0" />
         <Data key="enabled" value="True" />
         <Data key="minus_tolerance" value="0" />
@@ -1123,11 +1123,11 @@
         <Data key="netlist_name" value="RTC_Sel" />
         <Data key="plus_tolerance" value="0" />
         <Data key="scope" value="BUILTIN" />
-        <Data key="sourceClk_minus_acuracy_name" value="0.001" />
-        <Data key="sourceClk_plus_acuracy_name" value="0.001" />
-        <Data key="src_clk_id" value="6237B83A-0D23-454D-B9E0-FDDE55BDD181" />
-        <Data key="src_clk_name" value="Timer2 (WDT2)" />
-        <Data key="start_on_reset" value="False" />
+        <Data key="sourceClk_minus_acuracy_name" value="0" />
+        <Data key="sourceClk_plus_acuracy_name" value="0" />
+        <Data key="src_clk_id" value="" />
+        <Data key="src_clk_name" value="" />
+        <Data key="start_on_reset" value="True" />
       </Group>
       <Group key="A8C3204D-9BE8-4092-97CC-B0B247063044">
         <Data key="check_tolerance" value="False" />
@@ -1194,7 +1194,7 @@
         <Data key="desired_unit" value="3" />
         <Data key="divider" value="0" />
         <Data key="enabled" value="True" />
-        <Data key="generate_isr" value="True" />
+        <Data key="generate_isr" value="False" />
         <Data key="minus_tolerance" value="0" />
         <Data key="name" value="Timer (WDT) ISR" />
         <Data key="netlist_name" value="Timer (WDT) ISR" />
@@ -1212,7 +1212,7 @@
         <Data key="desired_freq" value="0" />
         <Data key="desired_unit" value="0" />
         <Data key="divider" value="16000" />
-        <Data key="enabled" value="True" />
+        <Data key="enabled" value="False" />
         <Data key="minus_tolerance" value="0" />
         <Data key="name" value="Timer0 (WDT0)" />
         <Data key="netlist_name" value="Timer0 (WDT0)" />

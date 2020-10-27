@@ -1,4 +1,4 @@
---------------- Rebuild Started: 10/27/2020 11:19:29 Project: RTC_P4_WDT_Example_V1.00.04-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Rebuild Started: 10/27/2020 14:12:28 Project: RTC_P4_WDT_Example_V1.00.04-Fork1, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\main.o"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\MyTime.o"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\MyWDT.o"
@@ -25,6 +25,7 @@ Deleting file ".\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\DIO_0_3.o"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\DIO_0_3_PM.o"
+Deleting file ".\CortexM0\ARM_GCC_541\Debug\isr_WDT.o"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.hex"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.elf"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.map"
@@ -59,9 +60,9 @@ Digital Placement...
 Begin Placement ...
 Computing initial partitioning.
 Improving initial partitioning.
-Cut size of initial partitioning is 0.
-Cut size at end of pass 0 is 0.       
-Final cut size is 0.           
+Cut size of initial partitioning is 1.
+Cut size at end of pass 0 is 1.       
+Final cut size is 1.           
 Performing simulated annealing improvement.
 Placement Complete.                        
 Digital Routing...
@@ -75,7 +76,7 @@ Dependency Generation...
 Cleanup...
 PowerShell.exe -ExecutionPolicy Bypass -Command "& \".\SCRIPT\PreBuildScript.ps1\""
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM0\ARM_GCC_541\Debug\main.o
-In file included from MyWDT.h:18:0,
+In file included from MyWDT.h:20:0,
                  from main.c:24:
 MyTime.h:87:17: warning: 'timeBuffer' defined but not used [-Wunused-variable]
      static char timeBuffer[16u];
@@ -89,13 +90,13 @@ MyTime.h:89:17: warning: 'timeDateBuffer' defined but not used [-Wunused-variabl
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MyTime.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c MyTime.c -o .\CortexM0\ARM_GCC_541\Debug\MyTime.o
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MyWDT.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c MyWDT.c -o .\CortexM0\ARM_GCC_541\Debug\MyWDT.o
 MyWDT.c: In function 'getALL_WDT_Values':
-MyWDT.c:226:11: warning: unused variable 'WdtGetMatchValue2' [-Wunused-variable]
+MyWDT.c:267:11: warning: unused variable 'WdtGetMatchValue2' [-Wunused-variable]
      int32 WdtGetMatchValue2;
            ^
-MyWDT.c:222:11: warning: unused variable 'WdtGetClearOnMatchValue2' [-Wunused-variable]
+MyWDT.c:263:11: warning: unused variable 'WdtGetClearOnMatchValue2' [-Wunused-variable]
      int32 WdtGetClearOnMatchValue2;
            ^
-In file included from MyWDT.h:18:0,
+In file included from MyWDT.h:20:0,
                  from MyWDT.c:12:
 MyWDT.c: At top level:
 MyTime.h:87:17: warning: 'timeBuffer' defined but not used [-Wunused-variable]
@@ -128,9 +129,10 @@ arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/DIO_0_0_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\DIO_0_0_PM.c -o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/DIO_0_3.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\DIO_0_3.c -o .\CortexM0\ARM_GCC_541\Debug\DIO_0_3.o
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/DIO_0_3_PM.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\DIO_0_3_PM.c -o .\CortexM0\ARM_GCC_541\Debug\DIO_0_3_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/isr_WDT.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC4\isr_WDT.c -o .\CortexM0\ARM_GCC_541\Debug\isr_WDT.o
 arm-none-eabi-as.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -alh=.\CortexM0\ARM_GCC_541\Debug/UART_AsmGnu.lst -g -W -o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o Generated_Source\PSoC4\UART_AsmGnu.s
 arm-none-eabi-as.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -alh=.\CortexM0\ARM_GCC_541\Debug/CyBootAsmGnu.lst -g -W -o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o Generated_Source\PSoC4\CyBootAsmGnu.s
-arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_3.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_3_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.a .\CortexM0\ARM_GCC_541\Debug\LED_Alarm.o .\CortexM0\ARM_GCC_541\Debug\LED_Alarm_PM.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr.o .\CortexM0\ARM_GCC_541\Debug\LED_WdtIsr_PM.o .\CortexM0\ARM_GCC_541\Debug\RTC.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_0_PM.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_3.o .\CortexM0\ARM_GCC_541\Debug\DIO_0_3_PM.o .\CortexM0\ARM_GCC_541\Debug\isr_WDT.o .\CortexM0\ARM_GCC_541\Debug\UART_AsmGnu.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
 arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.a
 arm-none-eabi-gcc.exe -Wl,--start-group -o V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.elf .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\MyTime.o .\CortexM0\ARM_GCC_541\Debug\MyWDT.o .\CortexM0\ARM_GCC_541\Debug\MyBuild.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/RTC_P4_WDT_Example_V1.00.04-Fork1.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
 cyelftool.exe -C V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.elf --flash_row_size 128 --flash_size 131072 --flash_offset 0x00000000
@@ -138,6 +140,6 @@ No ELF section .cychecksum found, creating one
 Application checksum calculated and stored in ELF section .cychecksum
 Checksum calculated and stored in ELF section .cymeta
 cyelftool.exe -S V:\Dynaris-V\Psoc-Sleep_Docks\2020-10-14_Testing\RTC_P4_WDT_Example_V1.00.04-Fork1\RTC_P4_WDT_Example_V1.00.04-Fork1.cydsn\CortexM0\ARM_GCC_541\Debug\RTC_P4_WDT_Example_V1.00.04-Fork1.elf
-Flash used: 13302 of 131072 bytes (10.1%).
+Flash used: 13326 of 131072 bytes (10.2%).
 SRAM used: 1920 of 16384 bytes (11.7%). Stack: 1024 bytes. Heap: 128 bytes.
---------------- Rebuild Succeeded: 10/27/2020 11:19:45 ---------------
+--------------- Rebuild Succeeded: 10/27/2020 14:12:44 ---------------
